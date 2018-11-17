@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_03_Wwise_Nightmares/Wwise Project 03 Template/</ProjectRoot>
+		<SourceFilesRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_03_Wwise_Nightmares/Wwise Project 03 Template/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_03_Wwise_Nightmares/Wwise Project 03 Template/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_03_Wwise_Nightmares/Wwise Project 03 Template/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3626155605" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game_SoundBank</ObjectPath>
+			<ShortName>Game_SoundBank</ShortName>
+			<Path>Game_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2582767885" Name="mx_game_lose" ObjectPath="\Events\Default Work Unit\mx_game_lose"/>
+				<Event Id="1801831767" Name="mx_game_music" ObjectPath="\Events\Default Work Unit\mx_game_music" MaxAttenuation="0.000000"/>
+				<Event Id="1494251832" Name="mx_game_win" ObjectPath="\Events\Default Work Unit\mx_game_win"/>
+				<Event Id="554004836" Name="mx_menu_music" ObjectPath="\Events\Default Work Unit\mx_menu_music"/>
+				<Event Id="2261090919" Name="sfx_hellephant_death" ObjectPath="\Events\Default Work Unit\sfx_hellephant_death"/>
+				<Event Id="2894176512" Name="sfx_hellephant_hurt" ObjectPath="\Events\Default Work Unit\sfx_hellephant_hurt"/>
+				<Event Id="377645597" Name="sfx_player_death" ObjectPath="\Events\Default Work Unit\sfx_player_death"/>
+				<Event Id="284022124" Name="sfx_player_hit" ObjectPath="\Events\Default Work Unit\sfx_player_hit"/>
+				<Event Id="1299260858" Name="sfx_player_shoot" ObjectPath="\Events\Default Work Unit\sfx_player_shoot"/>
+				<Event Id="4076065052" Name="sfx_zombear_death" ObjectPath="\Events\Default Work Unit\sfx_zombear_death"/>
+				<Event Id="2593995449" Name="sfx_zombear_hurt" ObjectPath="\Events\Default Work Unit\sfx_zombear_hurt"/>
+				<Event Id="516291168" Name="sfx_zombunny_death" ObjectPath="\Events\Default Work Unit\sfx_zombunny_death"/>
+				<Event Id="4204451453" Name="sfx_zombunny_hurt" ObjectPath="\Events\Default Work Unit\sfx_zombunny_hurt"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="15864782" Language="SFX">
+					<ShortName>ZomBunny Hurt.wav</ShortName>
+					<Path>SFX/ZomBunny Hurt_CC87FBFB.wem</Path>
+				</File>
+				<File Id="20644282" Language="SFX">
+					<ShortName>Hellephant Death.wav</ShortName>
+					<Path>SFX/Hellephant Death_CC87FBFB.wem</Path>
+				</File>
+				<File Id="142444817" Language="SFX">
+					<ShortName>ZomBunny Death.wav</ShortName>
+					<Path>SFX/ZomBunny Death_CC87FBFB.wem</Path>
+				</File>
+				<File Id="323144054" Language="SFX">
+					<ShortName>menu_music.wav</ShortName>
+					<Path>SFX/menu_music_0A288869.wem</Path>
+				</File>
+				<File Id="397818167" Language="SFX">
+					<ShortName>Player Death.wav</ShortName>
+					<Path>SFX/Player Death_CC87FBFB.wem</Path>
+				</File>
+				<File Id="517688445" Language="SFX">
+					<ShortName>winsnd.wav</ShortName>
+					<Path>SFX/winsnd_0A288869.wem</Path>
+				</File>
+				<File Id="587282357" Language="SFX">
+					<ShortName>ZomBear Death.wav</ShortName>
+					<Path>SFX/ZomBear Death_CC87FBFB.wem</Path>
+				</File>
+				<File Id="705594913" Language="SFX">
+					<ShortName>Player Hurt.wav</ShortName>
+					<Path>SFX/Player Hurt_CC87FBFB.wem</Path>
+				</File>
+				<File Id="819482582" Language="SFX">
+					<ShortName>Player GunShot.wav</ShortName>
+					<Path>SFX/Player GunShot_CC87FBFB.wem</Path>
+				</File>
+				<File Id="892419336" Language="SFX">
+					<ShortName>ZomBear Hurt.wav</ShortName>
+					<Path>SFX/ZomBear Hurt_CC87FBFB.wem</Path>
+				</File>
+				<File Id="899674823" Language="SFX">
+					<ShortName>Hellephant Hurt.wav</ShortName>
+					<Path>SFX/Hellephant Hurt_CC87FBFB.wem</Path>
+				</File>
+				<File Id="965492815" Language="SFX">
+					<ShortName>Background Music.wav</ShortName>
+					<Path>SFX/Background Music_0A288869.wem</Path>
+				</File>
+				<File Id="1068208287" Language="SFX">
+					<ShortName>lose3.wav</ShortName>
+					<Path>SFX/lose3_0A288869.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

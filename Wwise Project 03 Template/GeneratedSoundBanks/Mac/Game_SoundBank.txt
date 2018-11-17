@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	284022124	sfx_player_hit			\Default Work Unit\sfx_player_hit	
+	377645597	sfx_player_death			\Default Work Unit\sfx_player_death	
+	516291168	sfx_zombunny_death			\Default Work Unit\sfx_zombunny_death	
+	554004836	mx_menu_music			\Default Work Unit\mx_menu_music	
+	1299260858	sfx_player_shoot			\Default Work Unit\sfx_player_shoot	
+	1494251832	mx_game_win			\Default Work Unit\mx_game_win	
+	1801831767	mx_game_music			\Default Work Unit\mx_game_music	
+	2261090919	sfx_hellephant_death			\Default Work Unit\sfx_hellephant_death	
+	2582767885	mx_game_lose			\Default Work Unit\mx_game_lose	
+	2593995449	sfx_zombear_hurt			\Default Work Unit\sfx_zombear_hurt	
+	2894176512	sfx_hellephant_hurt			\Default Work Unit\sfx_hellephant_hurt	
+	4076065052	sfx_zombear_death			\Default Work Unit\sfx_zombear_death	
+	4204451453	sfx_zombunny_hurt			\Default Work Unit\sfx_zombunny_hurt	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2416641186	time_remaining_percentage			\Default Work Unit\time_remaining_percentage	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	15864782	ZomBunny Hurt	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\ZomBunny Hurt_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBunny Hurt		77888
+	20644282	Hellephant Death	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\Hellephant Death_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hellephant Death		223808
+	142444817	ZomBunny Death	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\ZomBunny Death_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBunny Death		182908
+	323144054	menu_music	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\menu_music_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Menu_Music\menu_music\menu_music		6875572
+	397818167	Player Death	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\Player Death_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Death		340196
+	517688445	winsnd	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\winsnd_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Win Stinger\winsnd		117856
+	587282357	ZomBear Death	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\ZomBear Death_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBear Death		155712
+	705594913	Player Hurt	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\Player Hurt_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Hurt		155712
+	819482582	Player GunShot	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\Player GunShot_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player GunShot		248712
+	892419336	ZomBear Hurt	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\ZomBear Hurt_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBear Hurt		68340
+	899674823	Hellephant Hurt	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\Hellephant Hurt_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hellephant Hurt		63080
+	965492815	Background Music	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\Background Music_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Gameplay_Music\Background Music\Background Music		4990528
+	1068208287	lose3	Y:\Desktop\Final_Project_03_Wwise_Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\lose3_0A288869.wem		\Interactive Music Hierarchy\Default Work Unit\Lose Stinger\lose3		114240
+

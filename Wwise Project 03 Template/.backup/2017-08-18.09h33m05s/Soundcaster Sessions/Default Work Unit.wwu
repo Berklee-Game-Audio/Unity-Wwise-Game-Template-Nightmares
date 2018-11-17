@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C68CD2E5-5FE2-44C5-8189-DCFFF63D4CBF}" SchemaVersion="75">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{C68CD2E5-5FE2-44C5-8189-DCFFF63D4CBF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{439B7C50-8202-47E0-8482-A676EDA9BA57}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Gameplay_Music" ID="{DAB7DF04-82D5-48C5-9A6B-20AFDDCDAAD8}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="player_health" ID="{D11ADDD8-F12B-4323-B5F3-1144A29EF509}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="number_of_enemies_within_range" ID="{8B3EAF09-34DD-4960-BBDD-334B94A96518}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="time_remaining_percentage" ID="{4BCDB0D3-7EA4-49AF-A211-373D860AB7C0}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="score" ID="{DFA3DFAC-879F-49E6-A5BA-A6F45FB21EB2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

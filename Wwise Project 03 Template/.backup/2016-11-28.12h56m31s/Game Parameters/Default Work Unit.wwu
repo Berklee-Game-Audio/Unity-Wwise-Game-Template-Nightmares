@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C24FF2A-4389-464F-9FD4-A3E2AD9DF31D}" SchemaVersion="72">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{7C24FF2A-4389-464F-9FD4-A3E2AD9DF31D}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="number_of_enemies_within_range" ID="{8B3EAF09-34DD-4960-BBDD-334B94A96518}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="40"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="player_health" ID="{D11ADDD8-F12B-4323-B5F3-1144A29EF509}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="score" ID="{DFA3DFAC-879F-49E6-A5BA-A6F45FB21EB2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="8000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="time_remaining_percentage" ID="{4BCDB0D3-7EA4-49AF-A211-373D860AB7C0}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

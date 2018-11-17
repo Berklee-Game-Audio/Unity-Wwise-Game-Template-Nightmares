@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="sfx_player_death" ID="{6C595BDD-72DC-42BD-9156-EAD87E891C9A}">
+					<ChildrenList>
+						<Action Name="" ID="{DAD77D09-343F-43F1-8FAD-3DB767FAAC37}" ShortID="859298505">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player Death" ID="{B59613A0-287C-4E10-B221-811466D610E0}" WorkUnitID="{8066C95C-D967-413D-994C-E2533D1194AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_player_hit" ID="{2700751A-AC6A-4515-A2E2-7F777FE72485}">
+					<ChildrenList>
+						<Action Name="" ID="{80BD26BF-A780-4DCE-8BA9-B22C05CBDBE9}" ShortID="626558003">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player Hurt" ID="{1231B834-CF9B-4D6B-B1EE-D206E1C94DE2}" WorkUnitID="{8066C95C-D967-413D-994C-E2533D1194AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_player_shoot" ID="{FC4D33A5-249B-4616-B1E5-1A65F1341214}">
+					<ChildrenList>
+						<Action Name="" ID="{628F76FD-59AB-4C07-9DA4-C1A7B1677E6F}" ShortID="559753865">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player GunShot" ID="{DB0B0EE6-D681-4F68-9E3E-C16297976876}" WorkUnitID="{8066C95C-D967-413D-994C-E2533D1194AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_hellephant_death" ID="{B9CA8B85-FFA5-4D0B-A660-C53C4756391E}">
+					<ChildrenList>
+						<Action Name="" ID="{C0F8A0C8-1BF0-41A0-B142-F928E8BAD2D1}" ShortID="582717801">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hellephant Death" ID="{11235680-9985-42A8-AACD-D67E35EFF18A}" WorkUnitID="{8066C95C-D967-413D-994C-E2533D1194AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_hellephant_hurt" ID="{FC4A2C8D-7AC4-4B7F-A32D-A0BC62B7B671}">
+					<ChildrenList>
+						<Action Name="" ID="{067DB1BD-6A5A-4F5A-8F2E-CA8AF722E24C}" ShortID="470354841">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hellephant Hurt" ID="{D0B4F0E5-B6D1-472E-9F5E-8A7EB000DD98}" WorkUnitID="{8066C95C-D967-413D-994C-E2533D1194AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_zombear_hurt" ID="{C50B0DD6-B452-4623-800C-18ED89110FED}">
+					<ChildrenList>
+						<Action Name="" ID="{7B9A3977-D905-43E2-B207-A6BF22A91E3D}" ShortID="720661310">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ZomBear Hurt" ID="{206C70C0-ABD0-4059-A44A-7D540DDC14D0}" WorkUnitID="{8066C95C-D967-413D-994C-E2533D1194AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_zombear_death" ID="{1F6E5AB0-89FB-4D0E-9082-CE134090B8C3}">
+					<ChildrenList>
+						<Action Name="" ID="{AAB13757-A297-4D2B-AA92-BCEAF8A8AC8F}" ShortID="953182870">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ZomBear Death" ID="{10557919-C361-4B8D-9A69-805BC6218C48}" WorkUnitID="{8066C95C-D967-413D-994C-E2533D1194AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_zombunny_hurt" ID="{C66DA5A4-D952-478A-9938-331F56814D33}">
+					<ChildrenList>
+						<Action Name="" ID="{843070C8-B0E6-4987-91BB-291A0EBF4036}" ShortID="596088565">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ZomBunny Hurt" ID="{CE925BF7-D3AB-4C4D-BC75-A2131C23A87C}" WorkUnitID="{8066C95C-D967-413D-994C-E2533D1194AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_zombunny_death" ID="{253502FA-8B0A-4B22-AEC5-41BE124ABAE0}">
+					<ChildrenList>
+						<Action Name="" ID="{42C34828-CAEB-421B-B67E-15D73766300B}" ShortID="394175006">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ZomBunny Death" ID="{E7E83DCB-378E-40E0-BEFA-90B14A595212}" WorkUnitID="{8066C95C-D967-413D-994C-E2533D1194AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx_menu_music" ID="{B38226DD-1C58-4240-AD43-D8836DD55DA9}">
+					<ChildrenList>
+						<Action Name="" ID="{3F979C7B-9EBB-4447-9C0F-47316540C1B2}" ShortID="1063867581">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{28749E95-4145-4EF6-A7D6-B272623FD78D}" ShortID="96823247">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{74D0A147-A826-479F-8542-952ABCFFD4DD}" WorkUnitID="{CA6FC7FF-6D89-45B5-8276-12DA9147ACAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9481F6EF-7F4F-4A9E-B9A4-DFC93B72130A}" ShortID="794709853">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Music Switch Container" ID="{F3147B78-FCD2-4B52-8241-AEB7663842C5}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E40D05CD-CDAD-4C76-8572-B74D3717A250}" ShortID="406592889">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_health" ID="{D11ADDD8-F12B-4323-B5F3-1144A29EF509}" WorkUnitID="{7C24FF2A-4389-464F-9FD4-A3E2AD9DF31D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx_game_music" ID="{81AC640D-2F6B-49CF-8813-F955631B7CF9}">
+					<ChildrenList>
+						<Action Name="" ID="{0BF88B7C-878A-4F00-92E9-EBCD73C4B0C0}" ShortID="252533984">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gameplay" ID="{91FE63EF-C658-4541-9A38-929536609065}" WorkUnitID="{CA6FC7FF-6D89-45B5-8276-12DA9147ACAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx_game_win" ID="{1B50C340-1335-4ADB-B892-A98668B2AF8B}">
+					<ChildrenList>
+						<Action Name="" ID="{18F0F082-FF6E-4237-B916-9371A7166EBA}" ShortID="893069443">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{54EDD693-F62C-4F4D-94C6-5E7470B4F9D9}" ShortID="996304696">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Win Stinger" ID="{5DDC3ABF-3B08-417D-83D2-2336D62D42D9}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx_game_lose" ID="{28A2BFB8-4F1B-4918-818F-35403F83AF27}">
+					<ChildrenList>
+						<Action Name="" ID="{7227DFCA-425C-4B10-A6F1-5267FC6D3779}" ShortID="550995120">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{AF3655AA-F689-4512-A319-C4528A476532}" ShortID="814330176">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lose Stinger" ID="{CEC4697F-4B52-4176-A077-279DF0D6E36E}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
