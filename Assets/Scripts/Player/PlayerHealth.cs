@@ -191,7 +191,7 @@ namespace CompleteProject
 			Debug.Log("RestartLevelNew");
 			restartQueued = false;
 			AkSoundEngine.PostEvent ("mx_menu_music", GameObject.Find ("WwiseGlobal"));
-			SceneManager.LoadScene (1);
+			SceneManager.LoadScene ("Game");
 			Time.timeScale = 0;
 			currentHealth = 100;
 			startScreenCanvas.enabled = true;

@@ -29,7 +29,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="menu" ID="{74D0A147-A826-479F-8542-952ABCFFD4DD}"/>
+						<CurrentStateRef Name="gameplay" ID="{91FE63EF-C658-4541-9A38-929536609065}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

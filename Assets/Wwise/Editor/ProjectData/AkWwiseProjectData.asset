@@ -15,19 +15,19 @@ MonoBehaviour:
   - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 9df627a497e6054e96a8fbdae375caee
-    m_lastTime: -8586665362684775808
+    m_lastTime: -8586587108494775808
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: a7d0d237af5a614faf167513dfd126ca
-    m_lastTime: -8586665362354775808
+    m_lastTime: -8586587108504775808
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: b6d14bbd1cde514d81c3a0f936218495
-    m_lastTime: -8586665362684775808
+    m_lastTime: -8586567019454775808
     List:
     - name: Game_SoundBank
       guid: 671556109adfdb41a345ddaae03ca4d8
@@ -42,7 +42,7 @@ MonoBehaviour:
   - PhysicalPath: Events/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 900fe84b80dc294c8cfbc7ec85f8672b
-    m_lastTime: -8586665362684775808
+    m_lastTime: -8586567019454775808
     List:
     - name: mx_game_lose
       guid: b8bfa2281b4f1849818f35403f83af27
@@ -77,6 +77,18 @@ MonoBehaviour:
       - ElementName: mx_game_win
         ObjectType: 3
       Path: Default Work Unit/mx_game_win
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: mx_load
+      guid: 3f5f38829d48e84b844e72e338b3e10f
+      id: 3209341821
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mx_load
+        ObjectType: 3
+      Path: Default Work Unit/mx_load
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -204,7 +216,7 @@ MonoBehaviour:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 2aff247c89434f469fd4a3e2ad9df31d
-    m_lastTime: -8586665362684775808
+    m_lastTime: -8586587108504775808
     List:
     - name: number_of_enemies_within_range
       guid: 09af3e8bdd346049bbdd334b94a96518
@@ -246,7 +258,7 @@ MonoBehaviour:
   - PhysicalPath: States/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: ffc76fca896db545827612da9147acad
-    m_lastTime: -8586665362684775808
+    m_lastTime: -8586587108494775808
     List:
     - name: game_state
       guid: 6d0635417831984a97b027ce43ee61d9
@@ -280,13 +292,13 @@ MonoBehaviour:
   - PhysicalPath: Switches/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 2b05c503e95fae428e3ffb9bee896882
-    m_lastTime: -8586665362684775808
+    m_lastTime: -8586587108494775808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: d2762ec9cb89304f8527fbe8f46bf91e
-    m_lastTime: -8586665362684775808
+    m_lastTime: -8586587108494775808
     List: []
   ExpandedItems:
   - /Wwise Project 03 Template

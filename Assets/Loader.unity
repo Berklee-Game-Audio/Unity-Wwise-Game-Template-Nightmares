@@ -251,7 +251,7 @@ MonoBehaviour:
   enableActionOnEvent: 0
   data:
     valueGuid: 
-    WwiseObjectReference: {fileID: 11400000, guid: 848ebc6896e8b45739505840ad28cd14,
+    WwiseObjectReference: {fileID: 11400000, guid: 528639243a8224489933c10fc3bb3fc9,
       type: 2}
   m_callbackData: {fileID: 0}
   playingId: 0

@@ -23,7 +23,7 @@ public class Loader : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 			
-		SceneManager.LoadScene (1);
+		SceneManager.LoadScene ("Game");
 	}
 	
 	// Update is called once per frame

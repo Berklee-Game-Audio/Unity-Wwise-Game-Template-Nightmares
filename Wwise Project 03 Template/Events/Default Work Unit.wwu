@@ -134,6 +134,11 @@
 						<Action Name="" ID="{3F979C7B-9EBB-4447-9C0F-47316540C1B2}" ShortID="1063867581">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
@@ -150,6 +155,11 @@
 						<Action Name="" ID="{9481F6EF-7F4F-4A9E-B9A4-DFC93B72130A}" ShortID="794709853">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -189,16 +199,36 @@
 						<Action Name="" ID="{18F0F082-FF6E-4237-B916-9371A7166EBA}" ShortID="893069443">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
 						<Action Name="" ID="{54EDD693-F62C-4F4D-94C6-5E7470B4F9D9}" ShortID="996304696">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Win Stinger" ID="{5DDC3ABF-3B08-417D-83D2-2336D62D42D9}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E8D93899-4DAA-4B5A-8B47-70E7E0A5549B}" ShortID="40203147">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="win" ID="{E5B73261-DC70-4CFC-AA66-89D4DABD08D3}" WorkUnitID="{CA6FC7FF-6D89-45B5-8276-12DA9147ACAD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -209,16 +239,60 @@
 						<Action Name="" ID="{7227DFCA-425C-4B10-A6F1-5267FC6D3779}" ShortID="550995120">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
 						<Action Name="" ID="{AF3655AA-F689-4512-A319-C4528A476532}" ShortID="814330176">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Lose Stinger" ID="{CEC4697F-4B52-4176-A077-279DF0D6E36E}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ED1F61E6-1D81-4C52-9DE9-FED03525AA39}" ShortID="678536652">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lose" ID="{EE7A5E3F-E961-47D4-964B-B988B5EE0A39}" WorkUnitID="{CA6FC7FF-6D89-45B5-8276-12DA9147ACAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx_load" ID="{82385F3F-489D-4BE8-844E-72E338B3E10F}">
+					<ChildrenList>
+						<Action Name="" ID="{B2DCF8EB-91C4-4CBF-8B3C-70B0DDBD3BAE}" ShortID="297180854">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Music Switch Container" ID="{F3147B78-FCD2-4B52-8241-AEB7663842C5}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{35A0568B-C103-4BE4-9C09-76B6EBBF0CE3}" ShortID="674486666">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{74D0A147-A826-479F-8542-952ABCFFD4DD}" WorkUnitID="{CA6FC7FF-6D89-45B5-8276-12DA9147ACAD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID MX_GAME_LOSE = 2582767885U;
         static const AkUniqueID MX_GAME_MUSIC = 1801831767U;
         static const AkUniqueID MX_GAME_WIN = 1494251832U;
+        static const AkUniqueID MX_LOAD = 3209341821U;
         static const AkUniqueID MX_MENU_MUSIC = 554004836U;
         static const AkUniqueID SFX_HELLEPHANT_DEATH = 2261090919U;
         static const AkUniqueID SFX_HELLEPHANT_HURT = 2894176512U;
@@ -37,7 +38,9 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID GAMEPLAY = 89505537U;
+                static const AkUniqueID LOSE = 221232726U;
                 static const AkUniqueID MENU = 2607556080U;
+                static const AkUniqueID WIN = 979765101U;
             } // namespace STATE
         } // namespace GAME_STATE
 

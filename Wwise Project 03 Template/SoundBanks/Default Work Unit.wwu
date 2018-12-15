@@ -16,6 +16,7 @@
 						<ObjectRef Name="mx_game_win" ID="{1B50C340-1335-4ADB-B892-A98668B2AF8B}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_zombunny_death" ID="{253502FA-8B0A-4B22-AEC5-41BE124ABAE0}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_hellephant_hurt" ID="{FC4A2C8D-7AC4-4B7F-A32D-A0BC62B7B671}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="mx_load" ID="{82385F3F-489D-4BE8-844E-72E338B3E10F}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_hellephant_death" ID="{B9CA8B85-FFA5-4D0B-A660-C53C4756391E}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx_zombear_death" ID="{1F6E5AB0-89FB-4D0E-9082-CE134090B8C3}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

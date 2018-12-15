@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_03_Wwise_Nightmares/Wwise Project 03 Template/</ProjectRoot>
-		<SourceFilesRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_03_Wwise_Nightmares/Wwise Project 03 Template/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_03_Wwise_Nightmares/Wwise Project 03 Template/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/michaelsweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/</ProjectRoot>
+		<SourceFilesRoot>/Users/michaelsweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/michaelsweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/msweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_03_Wwise_Nightmares/Wwise Project 03 Template/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/michaelsweet/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,8 +22,9 @@
 			<Path>Game_SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2582767885" Name="mx_game_lose" ObjectPath="\Events\Default Work Unit\mx_game_lose"/>
-				<Event Id="1801831767" Name="mx_game_music" ObjectPath="\Events\Default Work Unit\mx_game_music" MaxAttenuation="0.000000"/>
+				<Event Id="1801831767" Name="mx_game_music" ObjectPath="\Events\Default Work Unit\mx_game_music"/>
 				<Event Id="1494251832" Name="mx_game_win" ObjectPath="\Events\Default Work Unit\mx_game_win"/>
+				<Event Id="3209341821" Name="mx_load" ObjectPath="\Events\Default Work Unit\mx_load"/>
 				<Event Id="554004836" Name="mx_menu_music" ObjectPath="\Events\Default Work Unit\mx_menu_music"/>
 				<Event Id="2261090919" Name="sfx_hellephant_death" ObjectPath="\Events\Default Work Unit\sfx_hellephant_death"/>
 				<Event Id="2894176512" Name="sfx_hellephant_hurt" ObjectPath="\Events\Default Work Unit\sfx_hellephant_hurt"/>
