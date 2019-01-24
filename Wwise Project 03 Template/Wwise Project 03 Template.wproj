@@ -1,16 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="89" WwiseVersion="v2018.1.3" WwiseBuild="6784">
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="Project" SchemaVersion="89" WwiseVersion="v2018.1.4" WwiseBuild="6807">
 	<ProjectInfo>
 		<Project Name="Wwise Project 03 Template" ID="{0C1B107F-EAB3-4B0F-B84C-9CA4EA388C5A}">
 			<Platforms>
-				<Platform Name="Mac" ReferencePlatform="Mac" ID="{F102A112-5CC4-40EC-9D75-8C8BE28418E4}" />
-				<Platform Name="Windows" ReferencePlatform="Windows" ID="{C2D54197-A92E-42A8-9DC5-1472B4A25886}" />
+				<Platform Name="Mac" ReferencePlatform="Mac" ID="{F102A112-5CC4-40EC-9D75-8C8BE28418E4}"/>
+				<Platform Name="Windows" ReferencePlatform="Windows" ID="{C2D54197-A92E-42A8-9DC5-1472B4A25886}"/>
 			</Platforms>
 			<LanguageList>
-				<Language Name="English(US)" ID="{1221FC69-DD3D-4E4B-8F98-00DCBF2F83C3}" />
-				<Language Name="External" ID="{A31B4D9B-756B-4116-8A75-1DDCF8BB54A5}" />
-				<Language Name="Mixed" ID="{A756708D-4F68-4D81-8823-D4A755BFC25D}" />
-				<Language Name="SFX" ID="{0E44D00E-64BD-4EC4-B083-F79AF51412AD}" />
+				<Language Name="English(US)" ID="{1221FC69-DD3D-4E4B-8F98-00DCBF2F83C3}"/>
+				<Language Name="External" ID="{A31B4D9B-756B-4116-8A75-1DDCF8BB54A5}"/>
+				<Language Name="Mixed" ID="{A756708D-4F68-4D81-8823-D4A755BFC25D}"/>
+				<Language Name="SFX" ID="{0E44D00E-64BD-4EC4-B083-F79AF51412AD}"/>
 			</LanguageList>
 			<PropertyList>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -25,9 +25,9 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" />
-				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True" />
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="Z:/Users/msweet/Desktop/Final_Project_03_Wwise_Nightmares/Assets/StreamingAssets/Audio/GeneratedSoundBanks" />
+				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
+				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="Z:/Users/msweet/GoogleDrive/_CloudSync/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Assets/StreamingAssets/Audio/GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
@@ -58,7 +58,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2015.1|Build=5584|VersionName=v2015.1.7|Config=Release" />
+				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2015.1|Build=5584|VersionName=v2015.1.7|Config=Release"/>
 			</PropertyList>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioSource" PluginType="0" CompanyID="1" PluginID="0">
@@ -113,6 +113,16 @@
 								<Value>-1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="MarkerDetectionSensitivity" Type="Real64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MarkerInputMode" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideConversion" Type="bool">
 							<ValueList>
 								<Value>False</Value>
@@ -140,7 +150,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="PCM" PluginType="1" CompanyID="0" PluginID="1" />
+				<SharedPropertyList ClassName="PCM" PluginType="1" CompanyID="0" PluginID="1"/>
 				<SharedPropertyList ClassName="Sound" PluginType="0" CompanyID="1" PluginID="1">
 					<PropertyList>
 						<Property Name="3DPosition" Type="int16">
@@ -6878,7 +6888,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ExternalSource" PluginType="0" CompanyID="1" PluginID="57" />
+				<SharedPropertyList ClassName="ExternalSource" PluginType="0" CompanyID="1" PluginID="57"/>
 				<SharedPropertyList ClassName="MusicTrackSequence" PluginType="0" CompanyID="1" PluginID="58">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -7453,7 +7463,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Platform" PluginType="0" CompanyID="1" PluginID="69" />
+				<SharedPropertyList ClassName="Platform" PluginType="0" CompanyID="1" PluginID="69"/>
 				<SharedPropertyList ClassName="AudioDevice" PluginType="0" CompanyID="1" PluginID="71">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -7658,6 +7668,25 @@
 						<Property Name="SineGain" Type="Real32">
 							<ValueList>
 								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="Resonance Audio Renderer" PluginType="3" CompanyID="272" PluginID="100">
+					<PropertyList>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -9459,7 +9488,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>
@@ -9472,6 +9501,11 @@
 							</ValueList>
 						</Property>
 						<Property Name="ChannelConfigOverride" Type="int64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16">
 							<ValueList>
 								<Value>0</Value>
 							</ValueList>
@@ -9579,6 +9613,11 @@
 						<Property Name="LFELevel" Type="Real32">
 							<ValueList>
 								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
 							</ValueList>
 						</Property>
 						<Property Name="PreDelay" Type="Real32">
@@ -10289,6 +10328,35 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="ASIO Output" PluginType="7" CompanyID="0" PluginID="168">
+					<PropertyList>
+						<Property Name="BaseChannel" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ChannelConfig" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="170">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool">
@@ -10388,6 +10456,34 @@
 						<Property Name="Wet" Type="Real32">
 							<ValueList>
 								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="Wwise Channel Router" PluginType="6" CompanyID="0" PluginID="172">
+					<PropertyList>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="AttachableMixerInput" PluginType="3" CompanyID="0" PluginID="173">
+					<PropertyList>
+						<Property Name="Channel" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -10530,6 +10626,924 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="SoundSeed Grain" PluginType="2" CompanyID="0" PluginID="183">
+					<PropertyList>
+						<Property Name="Amplitude" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AmplitudeMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AmplitudeMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AmplitudeMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AmplitudeMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AmplitudeMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AmplitudeMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AmplitudeMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AmplitudeMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Attack" Type="Real32">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AttackMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AttackMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AttackMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AttackMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AttackMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AttackMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AttackMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AttackMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Azimuth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AzimuthMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AzimuthMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AzimuthMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AzimuthMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AzimuthMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AzimuthMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AzimuthMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="AzimuthMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Duration" Type="Real32">
+							<ValueList>
+								<Value>1000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationLink" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMultiplier" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMultiplierMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMultiplierMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMultiplierMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMultiplierMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMultiplierMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMultiplierMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMultiplierMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DurationMultiplierMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Elevation" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ElevationMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ElevationMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ElevationMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ElevationMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ElevationMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ElevationMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ElevationMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ElevationMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="EnvelopeType" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterFreq" Type="Real32">
+							<ValueList>
+								<Value>20000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterFreqMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterFreqMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterFreqMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterFreqMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterFreqMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterFreqMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterFreqMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterFreqMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterQ" Type="Real32">
+							<ValueList>
+								<Value>0.707</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterQMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterQMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterQMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterQMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterQMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterQMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterQMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterQMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterType" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRate" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRateMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRateMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRateMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRateMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRateMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRateMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRateMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRateMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainTime" Type="Real32">
+							<ValueList>
+								<Value>1000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainTimeMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainTimeMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainTimeMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainTimeMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainTimeMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainTimeMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainTimeMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainTimeMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MarkerSelect" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MarkerSelectMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MarkerSelectMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MarkerSelectMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MarkerSelectMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MarkerSelectMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MarkerSelectMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MarkerSelectMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MarkerSelectMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxNumGrains" Type="int32">
+							<ValueList>
+								<Value>256</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MidiMapTranspose" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModAmount1" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModAmount2" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModAmount3" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModAmount4" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModPeriod1" Type="Real32">
+							<ValueList>
+								<Value>1000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModPeriod2" Type="Real32">
+							<ValueList>
+								<Value>1000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModPeriod3" Type="Real32">
+							<ValueList>
+								<Value>1000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModPeriod4" Type="Real32">
+							<ValueList>
+								<Value>1000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModRate1" Type="Real32">
+							<ValueList>
+								<Value>20000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModRate2" Type="Real32">
+							<ValueList>
+								<Value>20000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModRate3" Type="Real32">
+							<ValueList>
+								<Value>20000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModRate4" Type="Real32">
+							<ValueList>
+								<Value>20000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModSelect1" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModSelect2" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModSelect3" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModSelect4" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModWaveform1" Type="int32">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModWaveform2" Type="int32">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModWaveform3" Type="int32">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModWaveform4" Type="int32">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Offset" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OffsetMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OffsetMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OffsetMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OffsetMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OffsetMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OffsetMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OffsetMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OffsetMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputChannelConfig" Type="int32">
+							<ValueList>
+								<Value>16641</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PositioningSelect" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="QuantizeToMarkers" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Release" Type="Real32">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReleaseMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReleaseMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReleaseMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReleaseMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReleaseMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReleaseMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReleaseMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReleaseMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SelectFreqTimeGrain" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Speed" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeedMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeedMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeedMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeedMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeedMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeedMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeedMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeedMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Spread" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpreadMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpreadMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpreadMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpreadMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpreadMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpreadMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpreadMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpreadMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Transpose" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="TransposeMod1Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="TransposeMod1Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="TransposeMod2Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="TransposeMod2Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="TransposeMod3Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="TransposeMod3Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="TransposeMod4Depth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="TransposeMod4Quantization" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="TransposeRoot" Type="int32">
+							<ValueList>
+								<Value>60</Value>
+							</ValueList>
+						</Property>
+						<Property Name="WindowMode" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="ParameterModulatorAssociation" PluginType="0" CompanyID="0" PluginID="185">
+					<PropertyList>
+						<Property Name="ModDisplayName" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModID" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ModName" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="ParamDisplayName" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="ParamID" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ParamName" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="Wwise Audio Input" PluginType="2" CompanyID="0" PluginID="200">
 					<PropertyList>
 						<Property Name="AudioInputGain" Type="Real32">
@@ -10539,9 +11553,51 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="Resonance Audio Room Effects" PluginType="6" CompanyID="272" PluginID="200">
+					<PropertyList>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="201">
 					<PropertyList>
 						<Property Name="Token" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="AttachableMixerInput" PluginType="3" CompanyID="272" PluginID="201">
+					<PropertyList>
+						<Property Name="Bypass" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="ASIO Input" PluginType="2" CompanyID="0" PluginID="204">
+					<PropertyList>
+						<Property Name="BaseChannel" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ChannelConfig" Type="int32">
 							<ValueList>
 								<Value>0</Value>
 							</ValueList>
@@ -10966,6 +12022,15 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="Marker" PluginType="0" CompanyID="0" PluginID="993">
+					<PropertyList>
+						<Property Name="Time" Type="Real64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="Auro Headphone" PluginType="3" CompanyID="263" PluginID="1100">
 					<PropertyList>
 						<Property Name="Bypass" Type="bool">
@@ -11200,7 +12265,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{35510A81-F0E5-4353-9B25-3E458F6F6088}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="3" />
+									<Property Name="Flags" Type="int32" Value="3"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -11221,7 +12286,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{FF38609C-2DD1-4E13-837F-941180747427}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="1" />
+									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -11242,7 +12307,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{FE2E275F-0F3F-46D3-B2B2-612D0A09C2D1}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="1" />
+									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -11263,7 +12328,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{C986EB61-82A8-4302-B1AA-62292607B4C1}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="3" />
+									<Property Name="Flags" Type="int32" Value="3"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -11284,7 +12349,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{D54DCE0B-2979-469C-B491-C48E968095B7}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="1" />
+									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -11305,7 +12370,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{456BE448-BA93-4611-9B17-25A429EFE210}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="1" />
+									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -11324,70 +12389,70 @@
 					</ObsOccCurve>
 				</ObsOccCurves>
 			</EnvironmentalSettings>
-			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}"/>
 			<PhysicalFolderList>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
-					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone" />
+					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
-					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone" />
+					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Audio Devices">
-					<WorkUnit Name="Audio Devices" ID="{27092F88-225A-1154-6725-C8A34F3D4482}" PersistMode="Standalone" />
+					<WorkUnit Name="Audio Devices" ID="{27092F88-225A-1154-6725-C8A34F3D4482}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Control Surface Sessions">
-					<WorkUnit Name="Control Surface Sessions" ID="{1751E4CD-8018-4E2C-9A8A-C77764D1D653}" PersistMode="Standalone" />
+					<WorkUnit Name="Control Surface Sessions" ID="{1751E4CD-8018-4E2C-9A8A-C77764D1D653}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Conversion Settings">
-					<WorkUnit Name="Conversion Settings" ID="{4AA12040-049C-400F-ABCD-6EED192EC1D7}" PersistMode="Standalone" />
+					<WorkUnit Name="Conversion Settings" ID="{4AA12040-049C-400F-ABCD-6EED192EC1D7}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Dynamic Dialogue">
-					<WorkUnit Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" PersistMode="Standalone" />
+					<WorkUnit Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Effects">
-					<WorkUnit Name="Effects" ID="{41093F77-829F-4D88-8601-E8B25F3D4781}" PersistMode="Standalone" />
+					<WorkUnit Name="Effects" ID="{41093F77-829F-4D88-8601-E8B25F3D4781}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events">
-					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone" />
+					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Game Parameters">
-					<WorkUnit Name="Game Parameters" ID="{4025818E-097F-4A72-B692-B8A2E2663DCB}" PersistMode="Standalone" />
+					<WorkUnit Name="Game Parameters" ID="{4025818E-097F-4A72-B692-B8A2E2663DCB}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Interactive Music Hierarchy">
-					<WorkUnit Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" PersistMode="Standalone" />
+					<WorkUnit Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Master-Mixer Hierarchy">
-					<WorkUnit Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" PersistMode="Standalone" />
+					<WorkUnit Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Mixing Sessions">
-					<WorkUnit Name="Mixing Sessions" ID="{6477AAF7-E365-4990-A392-E59B824B6418}" PersistMode="Standalone" />
+					<WorkUnit Name="Mixing Sessions" ID="{6477AAF7-E365-4990-A392-E59B824B6418}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Modulators">
-					<WorkUnit Name="Modulators" ID="{14C37342-3847-49FF-A05C-5007991BED50}" PersistMode="Standalone" />
+					<WorkUnit Name="Modulators" ID="{14C37342-3847-49FF-A05C-5007991BED50}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Presets">
-					<WorkUnit Name="Presets" ID="{34C55C34-79EE-4678-860F-4C7DBE71D6DF}" PersistMode="Standalone" />
+					<WorkUnit Name="Presets" ID="{34C55C34-79EE-4678-860F-4C7DBE71D6DF}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Queries">
-					<WorkUnit Name="Queries" ID="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}" PersistMode="Standalone" />
+					<WorkUnit Name="Queries" ID="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks">
-					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone" />
+					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
-					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone" />
+					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="States">
-					<WorkUnit Name="States" ID="{59A9E7B9-61C9-461A-A96F-4997B541A59C}" PersistMode="Standalone" />
+					<WorkUnit Name="States" ID="{59A9E7B9-61C9-461A-A96F-4997B541A59C}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Switches">
-					<WorkUnit Name="Switches" ID="{CB6175F1-6080-4A23-92EF-0807E304D0C1}" PersistMode="Standalone" />
+					<WorkUnit Name="Switches" ID="{CB6175F1-6080-4A23-92EF-0807E304D0C1}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Triggers">
-					<WorkUnit Name="Triggers" ID="{6C7657FC-4758-4D41-BD4C-68B09F91DB29}" PersistMode="Standalone" />
+					<WorkUnit Name="Triggers" ID="{6C7657FC-4758-4D41-BD4C-68B09F91DB29}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Virtual Acoustics">
-					<WorkUnit Name="Virtual Acoustics" ID="{32CD8547-A946-4547-BBB1-69F44E796139}" PersistMode="Standalone" />
+					<WorkUnit Name="Virtual Acoustics" ID="{32CD8547-A946-4547-BBB1-69F44E796139}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 			</PhysicalFolderList>
 		</Project>
