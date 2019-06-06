@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{03C5052B-5FE9-42AE-8E3F-FB9BEE896882}" SchemaVersion="89">
+<WwiseDocument Type="WorkUnit" ID="{03C5052B-5FE9-42AE-8E3F-FB9BEE896882}" SchemaVersion="94">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{03C5052B-5FE9-42AE-8E3F-FB9BEE896882}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{03C5052B-5FE9-42AE-8E3F-FB9BEE896882}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="gameplay_time" ID="{369F6656-E354-4053-B1D7-0706AA4910A9}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="beginning" ID="{A7D3CAE1-813C-43AB-9C44-6E6ED87211D0}"/>
+						<Switch Name="middle" ID="{2526454C-5C1D-40FE-84B6-F7A132E6C79E}"/>
+						<Switch Name="end" ID="{D0FA1DC8-3F35-4B41-B168-75BE85A7DD89}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="time_remaining_percentage" ID="{4BCDB0D3-7EA4-49AF-A211-373D860AB7C0}"/>
+						<Curve Name="" ID="{B398D068-5161-440F-B78A-AA704B41B325}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>3</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>26.85811</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>60.97973</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

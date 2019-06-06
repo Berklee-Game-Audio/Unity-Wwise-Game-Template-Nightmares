@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="UserProjectSettings" SchemaVersion="89">
+<WwiseDocument Type="UserProjectSettings" SchemaVersion="94">
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{1967F247-3304-44C9-912D-67E51D3FD237}">
 			<PropertyList>
@@ -30,6 +30,7 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
@@ -53,7 +54,7 @@
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\WatchMgr\GameSyncWatches" Type="string" Value="Ca8+i900YEm73TNLlKllGNjdGtEr8SNDtfMRRKKe9Qms36Pfn4fmSaW6pvRfsh6y07DNS6R+r0miETc9hgq3wA=="/>
 				<Property Name="MonitoringManager\WatchMgr\Watches" Type="string" Value=""/>
-				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="6"/>
+				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="7"/>
 				<Property Name="MonitoringManager\WatchMgr\x64_GameSyncWatches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
 				<Property Name="Music Transition List\{0A914997-42AE-453A-B1A0-F37D86ED05CD}\Expand States" Type="string" Value=""/>
@@ -115,12 +116,12 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="XMlmgGfZPUGZTOJTPRGUqg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="kA/oS4DcKUyM+8fshfhnKw=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="KwXFA+lfrkKOP/ub7ologg=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="VmafNlTjU0Cx1wcGqkkQqSsFxQPpX65Cjj/7m+6JaII="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="/8dvyolttUWCdhLakUesrW0GNUF4MZhKl7AnzkPuYdk="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="ttFLvRzeUU2Bw6D5NiGElQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="Kv8kfIlDT0af1KPirZ3zHQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
-				<Property Name="RTPC\GameParameterSimValue\{4BCDB0D3-7EA4-49AF-A211-373D860AB7C0}" Type="Real64" Value="25"/>
+				<Property Name="RTPC\GameParameterSimValue\{4BCDB0D3-7EA4-49AF-A211-373D860AB7C0}" Type="Real64" Value="100"/>
 				<Property Name="RTPC\GameParameterSimValue\{8B3EAF09-34DD-4960-BBDD-334B94A96518}" Type="Real64" Value="23.7135278514589"/>
 				<Property Name="RTPC\GameParameterSimValue\{D11ADDD8-F12B-4323-B5F3-1144A29EF509}" Type="Real64" Value="13.8563829787234"/>
 				<Property Name="RTPC\GameParameterSimValue\{DFA3DFAC-879F-49E6-A5BA-A6F45FB21EB2}" Type="Real64" Value="0"/>

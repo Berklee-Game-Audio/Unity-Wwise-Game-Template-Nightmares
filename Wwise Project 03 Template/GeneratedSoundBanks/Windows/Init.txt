@@ -1,9 +1,19 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1369033959	gameplay_time			\Default Work Unit\gameplay_time	
+
+Switch	ID	Name	Switch Group			Notes
+	37738130	beginning	gameplay_time			
+	529726532	end	gameplay_time			
+	1026627430	middle	gameplay_time			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	766723505	game_state			\Default Work Unit\game_state	
 
 State	ID	Name	State Group			Notes
 	0	None	game_state			
 	89505537	gameplay	game_state			
+	221232726	lose	game_state			
+	979765101	win	game_state			
 	2607556080	menu	game_state			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes

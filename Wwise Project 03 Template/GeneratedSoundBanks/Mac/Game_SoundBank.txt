@@ -14,6 +14,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	4076065052	sfx_zombear_death			\Default Work Unit\sfx_zombear_death	
 	4204451453	sfx_zombunny_hurt			\Default Work Unit\sfx_zombunny_hurt	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	game_state			\Default Work Unit\game_state	
+
+State	ID	Name	State Group			Notes
+	0	None	game_state			
+	89505537	gameplay	game_state			
+	221232726	lose	game_state			
+	979765101	win	game_state			
+	2607556080	menu	game_state			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	15864782	ZomBunny Hurt	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\ZomBunny Hurt_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBunny Hurt		7143
 	20644282	Hellephant Death	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Mac\SFX\Hellephant Death_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hellephant Death		17786

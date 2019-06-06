@@ -46,6 +46,22 @@ namespace AK
 
     } // namespace STATES
 
+    namespace SWITCHES
+    {
+        namespace GAMEPLAY_TIME
+        {
+            static const AkUniqueID GROUP = 1369033959U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BEGINNING = 37738130U;
+                static const AkUniqueID END = 529726532U;
+                static const AkUniqueID MIDDLE = 1026627430U;
+            } // namespace SWITCH
+        } // namespace GAMEPLAY_TIME
+
+    } // namespace SWITCHES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID NUMBER_OF_ENEMIES_WITHIN_RANGE = 1196948129U;
