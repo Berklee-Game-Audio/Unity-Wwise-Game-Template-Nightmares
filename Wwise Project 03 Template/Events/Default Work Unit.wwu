@@ -218,7 +218,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Win Stinger" ID="{5DDC3ABF-3B08-417D-83D2-2336D62D42D9}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
+									<ObjectRef Name="Win Stinger Segment" ID="{5DDC3ABF-3B08-417D-83D2-2336D62D42D9}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -246,21 +246,6 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList/>
-						</Action>
-						<Action Name="" ID="{AF3655AA-F689-4512-A319-C4528A476532}" ShortID="814330176">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Lose Stinger" ID="{CEC4697F-4B52-4176-A077-279DF0D6E36E}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
-								</Reference>
-							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{ED1F61E6-1D81-4C52-9DE9-FED03525AA39}" ShortID="678536652">
 							<PropertyList>

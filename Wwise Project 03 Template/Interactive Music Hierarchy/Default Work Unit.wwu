@@ -13,7 +13,14 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicPlaylistContainer Name="Gameplay_Music" ID="{DAB7DF04-82D5-48C5-9A6B-20AFDDCDAAD8}" ShortID="124729699">
+						<MusicPlaylistContainer Name="Gameplay_Music_Playlist" ID="{DAB7DF04-82D5-48C5-9A6B-20AFDDCDAAD8}" ShortID="124729699">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC53625A-606D-440C-B980-CB1871880BD0}"/>
@@ -23,7 +30,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="Background Music" ID="{531C7B94-06D1-4D64-B1E1-D6EF9AE31E75}" ShortID="661238645">
+								<MusicSegment Name="Background Music Segment" ID="{531C7B94-06D1-4D64-B1E1-D6EF9AE31E75}" ShortID="661238645">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="28290.612244898"/>
 									</PropertyList>
@@ -109,13 +116,13 @@
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="Background Music" ID="{531C7B94-06D1-4D64-B1E1-D6EF9AE31E75}"/>
+											<SegmentRef Name="Background Music Segment" ID="{531C7B94-06D1-4D64-B1E1-D6EF9AE31E75}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="Menu_Music" ID="{FCFE5278-A11E-4C85-89BE-0DE727886888}" ShortID="201395">
+						<MusicPlaylistContainer Name="Menu_Music_Playlist" ID="{FCFE5278-A11E-4C85-89BE-0DE727886888}" ShortID="201395">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC53625A-606D-440C-B980-CB1871880BD0}"/>
@@ -125,7 +132,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="menu_music" ID="{C94E9080-812A-49D2-9284-4E7501CC2305}" ShortID="729801058">
+								<MusicSegment Name="menu_music_segment" ID="{C94E9080-812A-49D2-9284-4E7501CC2305}" ShortID="729801058">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="38976.8027210884"/>
 									</PropertyList>
@@ -208,13 +215,13 @@
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="menu_music" ID="{C94E9080-812A-49D2-9284-4E7501CC2305}"/>
+											<SegmentRef Name="menu_music_segment" ID="{C94E9080-812A-49D2-9284-4E7501CC2305}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicSegment Name="Lose Stinger" ID="{CEC4697F-4B52-4176-A077-279DF0D6E36E}" ShortID="1066269952">
+						<MusicSegment Name="Lose Stinger Segment" ID="{CEC4697F-4B52-4176-A077-279DF0D6E36E}" ShortID="1066269952">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC53625A-606D-440C-B980-CB1871880BD0}"/>
@@ -270,7 +277,7 @@
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
-						<MusicSegment Name="Win Stinger" ID="{5DDC3ABF-3B08-417D-83D2-2336D62D42D9}" ShortID="766760138">
+						<MusicSegment Name="Win Stinger Segment" ID="{5DDC3ABF-3B08-417D-83D2-2336D62D42D9}" ShortID="766760138">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC53625A-606D-440C-B980-CB1871880BD0}"/>
@@ -342,8 +349,8 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{B0776AA7-57F4-4EB8-B652-733010307F0B}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="1"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="3"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -363,7 +370,7 @@
 								<PathElementRef Name="gameplay" ID="{91FE63EF-C658-4541-9A38-929536609065}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Gameplay_Music" ID="{DAB7DF04-82D5-48C5-9A6B-20AFDDCDAAD8}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" Platform="Linked"/>
+								<AudioNodeRef Name="Gameplay_Music_Playlist" ID="{DAB7DF04-82D5-48C5-9A6B-20AFDDCDAAD8}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -371,7 +378,7 @@
 								<PathElementRef Name="menu" ID="{74D0A147-A826-479F-8542-952ABCFFD4DD}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Menu_Music" ID="{FCFE5278-A11E-4C85-89BE-0DE727886888}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" Platform="Linked"/>
+								<AudioNodeRef Name="Menu_Music_Playlist" ID="{FCFE5278-A11E-4C85-89BE-0DE727886888}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -379,7 +386,7 @@
 								<PathElementRef Name="lose" ID="{EE7A5E3F-E961-47D4-964B-B988B5EE0A39}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Lose Stinger" ID="{CEC4697F-4B52-4176-A077-279DF0D6E36E}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" Platform="Linked"/>
+								<AudioNodeRef Name="Lose Stinger Segment" ID="{CEC4697F-4B52-4176-A077-279DF0D6E36E}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -387,7 +394,7 @@
 								<PathElementRef Name="win" ID="{E5B73261-DC70-4CFC-AA66-89D4DABD08D3}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Win Stinger" ID="{5DDC3ABF-3B08-417D-83D2-2336D62D42D9}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" Platform="Linked"/>
+								<AudioNodeRef Name="Win Stinger Segment" ID="{5DDC3ABF-3B08-417D-83D2-2336D62D42D9}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
