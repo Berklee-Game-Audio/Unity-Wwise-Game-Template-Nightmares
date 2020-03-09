@@ -18,24 +18,24 @@ State Group	ID	Name			Wwise Object Path	Notes
 	766723505	game_state			\Default Work Unit\game_state	
 
 State	ID	Name	State Group			Notes
-	0	None	game_state			
 	89505537	gameplay	game_state			
 	221232726	lose	game_state			
+	748895195	None	game_state			
 	979765101	win	game_state			
 	2607556080	menu	game_state			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	15864782	ZomBunny Hurt	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\ZomBunny Hurt_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBunny Hurt		7143
-	20644282	Hellephant Death	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Hellephant Death_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hellephant Death		17786
-	142444817	ZomBunny Death	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\ZomBunny Death_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBunny Death		16201
-	323144054	menu_music	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\menu_music_91B2A2BD.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Menu_Music_Playlist\menu_music_segment\menu_music		616444
-	397818167	Player Death	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Player Death_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Death		29702
-	517688445	winsnd	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\winsnd_91B2A2BD.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Win Stinger Segment\winsnd		18793
-	587282357	ZomBear Death	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\ZomBear Death_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBear Death		13169
-	705594913	Player Hurt	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Player Hurt_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Hurt		5860
-	819482582	Player GunShot	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Player GunShot_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player GunShot		18244
-	892419336	ZomBear Hurt	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\ZomBear Hurt_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBear Hurt		10537
-	899674823	Hellephant Hurt	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Hellephant Hurt_4F2DCF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hellephant Hurt		8126
-	965492815	Background Music	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Background Music_91B2A2BD.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Gameplay_Music_Playlist\Background Music Segment\Background Music		485769
-	1068208287	lose3	Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\lose3_91B2A2BD.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Lose Stinger Segment\lose3		17033
+	15864782	ZomBunny Hurt	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\ZomBunny Hurt_D2174E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBunny Hurt		7171
+	20644282	Hellephant Death	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Hellephant Death_D2174E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hellephant Death		17915
+	142444817	ZomBunny Death	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\ZomBunny Death_D2174E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBunny Death		16379
+	323144054	menu_music	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\menu_music_8758A51D.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Menu_Music_Playlist\menu_music_segment\menu_music		619808
+	397818167	Player Death	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Player Death_D2174E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Death		29709
+	517688445	winsnd	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\winsnd_8758A51D.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Win Stinger Segment\winsnd		18970
+	587282357	ZomBear Death	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\ZomBear Death_D2174E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBear Death		13222
+	705594913	Player Hurt	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Player Hurt_D2174E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Hurt		5863
+	819482582	Player GunShot	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Player GunShot_D2174E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player GunShot		18423
+	892419336	ZomBear Hurt	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\ZomBear Hurt_D2174E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBear Hurt		10554
+	899674823	Hellephant Hurt	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Hellephant Hurt_D2174E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hellephant Hurt		8143
+	965492815	Background Music	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\Background Music_8758A51D.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Gameplay_Music_Playlist\Background Music Segment\Background Music		488916
+	1068208287	lose3	C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\SFX\lose3_8758A51D.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Lose Stinger Segment\lose3		17220
 

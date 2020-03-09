@@ -6,8 +6,9 @@
   <CreateWwiseListener>false</CreateWwiseListener>
   <GenerateSoundBanksAsPreBuildStep>false</GenerateSoundBanksAsPreBuildStep>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
+  <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2019.1.2.7018/Wwise.app</WwiseInstallationPathMac>
-  <WwiseInstallationPathWindows />
+  <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2019.2.0.7216</WwiseInstallationPathWindows>
   <WwiseProjectPath>../../Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/Wwise Project 03 Template.wproj</WwiseProjectPath>
 </WwiseSettings>

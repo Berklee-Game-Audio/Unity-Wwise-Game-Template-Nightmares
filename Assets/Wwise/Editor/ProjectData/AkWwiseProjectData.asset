@@ -12,14 +12,349 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc021bb710b543389e93653daaf9819, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586178357266724269
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586178357267512166
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586178357266824001
+    List:
+    - name: Game_SoundBank
+      guid: 671556109adfdb41a345ddaae03ca4d8
+      id: 3626155605
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_SoundBank
+        ObjectType: 7
+      Path: Default Work Unit\Game_SoundBank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586178357267761496
+    List:
+    - name: mx_game_lose
+      guid: b8bfa2281b4f1849818f35403f83af27
+      id: 2582767885
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mx_game_lose
+        ObjectType: 3
+      Path: Default Work Unit\mx_game_lose
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: mx_game_music
+      guid: 0d64ac816b2fcf498813f955631b7cf9
+      id: 1801831767
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mx_game_music
+        ObjectType: 3
+      Path: Default Work Unit\mx_game_music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: mx_game_win
+      guid: 40c3501b3513db4ab892a98668b2af8b
+      id: 1494251832
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mx_game_win
+        ObjectType: 3
+      Path: Default Work Unit\mx_game_win
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: mx_load
+      guid: 3f5f38829d48e84b844e72e338b3e10f
+      id: 3209341821
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mx_load
+        ObjectType: 3
+      Path: Default Work Unit\mx_load
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: mx_menu_music
+      guid: dd2682b3581c4042ad43d8836dd55da9
+      id: 554004836
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mx_menu_music
+        ObjectType: 3
+      Path: Default Work Unit\mx_menu_music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_hellephant_death
+      guid: 858bcab9a5ff0b4da660c53c4756391e
+      id: 2261090919
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_hellephant_death
+        ObjectType: 3
+      Path: Default Work Unit\sfx_hellephant_death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_hellephant_hurt
+      guid: 8d2c4afcc47a7f4ba32da0bc62b7b671
+      id: 2894176512
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_hellephant_hurt
+        ObjectType: 3
+      Path: Default Work Unit\sfx_hellephant_hurt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_player_death
+      guid: dd5b596cdc72bd429156ead87e891c9a
+      id: 377645597
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_player_death
+        ObjectType: 3
+      Path: Default Work Unit\sfx_player_death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_player_hit
+      guid: 1a7500276aac1545a2e27f777fe72485
+      id: 284022124
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_player_hit
+        ObjectType: 3
+      Path: Default Work Unit\sfx_player_hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_player_shoot
+      guid: a5334dfc9b241646b1e51a65f1341214
+      id: 1299260858
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_player_shoot
+        ObjectType: 3
+      Path: Default Work Unit\sfx_player_shoot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_zombear_death
+      guid: b05a6e1ffb890e4d9082ce134090b8c3
+      id: 4076065052
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_zombear_death
+        ObjectType: 3
+      Path: Default Work Unit\sfx_zombear_death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_zombear_hurt
+      guid: d60d0bc552b42346800c18ed89110fed
+      id: 2593995449
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_zombear_hurt
+        ObjectType: 3
+      Path: Default Work Unit\sfx_zombear_hurt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_zombunny_death
+      guid: fa0235250a8b224baec541be124abae0
+      id: 516291168
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_zombunny_death
+        ObjectType: 3
+      Path: Default Work Unit\sfx_zombunny_death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_zombunny_hurt
+      guid: a4a56dc652d98a479938331f56814d33
+      id: 4204451453
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_zombunny_hurt
+        ObjectType: 3
+      Path: Default Work Unit\sfx_zombunny_hurt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586178357267053391
+    List:
+    - name: number_of_enemies_within_range
+      guid: 09af3e8bdd346049bbdd334b94a96518
+      id: 1196948129
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: number_of_enemies_within_range
+        ObjectType: 13
+      Path: Default Work Unit\number_of_enemies_within_range
+    - name: player_health
+      guid: d8dd1ad12bf12343b5f31144a29ef509
+      id: 215992295
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: player_health
+        ObjectType: 13
+      Path: Default Work Unit\player_health
+    - name: score
+      guid: acdfa3df9f87e649a5baa6f45fb21eb2
+      id: 2398231425
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: score
+        ObjectType: 13
+      Path: Default Work Unit\score
+    - name: time_remaining_percentage
+      guid: d3b0cd4ba47eaf49a211373d860ab7c0
+      id: 2416641186
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: time_remaining_percentage
+        ObjectType: 13
+      Path: Default Work Unit\time_remaining_percentage
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586178357267701652
+    List:
+    - name: game_state
+      guid: 6d0635417831984a97b027ce43ee61d9
+      id: 766723505
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: game_state
+        ObjectType: 9
+      Path: Default Work Unit\game_state
+      values:
+      - name: gameplay
+        guid: ef63fe9158c641459a38929536609065
+        id: 89505537
+        PathAndIcons:
+        - ElementName: gameplay
+          ObjectType: 8
+      - name: lose
+        guid: 3f5e7aee61e9d447964bb988b5ee0a39
+        id: 221232726
+        PathAndIcons:
+        - ElementName: lose
+          ObjectType: 8
+      - name: menu
+        guid: 47a1d07426a89f478542952abcffd4dd
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: menu
+          ObjectType: 8
+      - name: None
+        guid: 32a0fbe1e6735949abf48622da02eada
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: win
+        guid: 6132b7e570dcfc4caa6689d4dabd08d3
+        id: 979765101
+        PathAndIcons:
+        - ElementName: win
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586178357267611647
+    List:
+    - name: gameplay_time
+      guid: 56669f3654e35340b1d70706aa4910a9
+      id: 1369033959
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: gameplay_time
+        ObjectType: 11
+      Path: Default Work Unit\gameplay_time
+      values:
+      - name: beginning
+        guid: e1cad3a73c81ab439c446e6ed87211d0
+        id: 37738130
+        PathAndIcons:
+        - ElementName: beginning
+          ObjectType: 10
+      - name: end
+        guid: c81dfad0353f414bb16875be85a7dd89
+        id: 529726532
+        PathAndIcons:
+        - ElementName: end
+          ObjectType: 10
+      - name: middle
+        guid: 4c4526251d5cfe4084b6f7a132e6c79e
+        id: 1026627430
+        PathAndIcons:
+        - ElementName: middle
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586178357267202989
+    List: []
   ExpandedItems: []
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

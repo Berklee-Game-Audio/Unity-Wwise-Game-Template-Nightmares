@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{BD4BD1B6-DE1C-4D51-81C3-A0F936218495}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{BD4BD1B6-DE1C-4D51-81C3-A0F936218495}" SchemaVersion="97">
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{BD4BD1B6-DE1C-4D51-81C3-A0F936218495}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Game_SoundBank" ID="{10561567-DF9A-41DB-A345-DDAAE03CA4D8}">
 					<ObjectInclusionList>
-						<ObjectRef Name="mx_menu_music" ID="{B38226DD-1C58-4240-AD43-D8836DD55DA9}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="sfx_player_death" ID="{6C595BDD-72DC-42BD-9156-EAD87E891C9A}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="sfx_player_hit" ID="{2700751A-AC6A-4515-A2E2-7F777FE72485}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="sfx_player_shoot" ID="{FC4D33A5-249B-4616-B1E5-1A65F1341214}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="sfx_zombear_hurt" ID="{C50B0DD6-B452-4623-800C-18ED89110FED}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="sfx_zombunny_hurt" ID="{C66DA5A4-D952-478A-9938-331F56814D33}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="mx_game_lose" ID="{28A2BFB8-4F1B-4918-818F-35403F83AF27}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="mx_game_music" ID="{81AC640D-2F6B-49CF-8813-F955631B7CF9}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="mx_game_win" ID="{1B50C340-1335-4ADB-B892-A98668B2AF8B}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="sfx_zombunny_death" ID="{253502FA-8B0A-4B22-AEC5-41BE124ABAE0}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="sfx_hellephant_hurt" ID="{FC4A2C8D-7AC4-4B7F-A32D-A0BC62B7B671}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="mx_load" ID="{82385F3F-489D-4BE8-844E-72E338B3E10F}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="sfx_hellephant_death" ID="{B9CA8B85-FFA5-4D0B-A660-C53C4756391E}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="sfx_zombear_death" ID="{1F6E5AB0-89FB-4D0E-9082-CE134090B8C3}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="mx_menu_music" ID="{B38226DD-1C58-4240-AD43-D8836DD55DA9}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_player_death" ID="{6C595BDD-72DC-42BD-9156-EAD87E891C9A}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_player_hit" ID="{2700751A-AC6A-4515-A2E2-7F777FE72485}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_player_shoot" ID="{FC4D33A5-249B-4616-B1E5-1A65F1341214}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_zombear_hurt" ID="{C50B0DD6-B452-4623-800C-18ED89110FED}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_zombunny_hurt" ID="{C66DA5A4-D952-478A-9938-331F56814D33}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mx_game_lose" ID="{28A2BFB8-4F1B-4918-818F-35403F83AF27}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mx_game_music" ID="{81AC640D-2F6B-49CF-8813-F955631B7CF9}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mx_game_win" ID="{1B50C340-1335-4ADB-B892-A98668B2AF8B}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_zombunny_death" ID="{253502FA-8B0A-4B22-AEC5-41BE124ABAE0}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_hellephant_hurt" ID="{FC4A2C8D-7AC4-4B7F-A32D-A0BC62B7B671}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mx_load" ID="{82385F3F-489D-4BE8-844E-72E338B3E10F}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_hellephant_death" ID="{B9CA8B85-FFA5-4D0B-A660-C53C4756391E}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_zombear_death" ID="{1F6E5AB0-89FB-4D0E-9082-CE134090B8C3}" WorkUnitID="{4BE80F90-DC80-4C29-8CFB-C7EC85F8672B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

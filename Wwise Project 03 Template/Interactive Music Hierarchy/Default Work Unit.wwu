@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" SchemaVersion="97">
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}" PersistMode="Standalone">
 			<ChildrenList>
@@ -50,12 +50,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Background Music" ID="{DE516DBF-F0DE-4319-BB10-5D23E77B2F76}" ShortID="846577138">
+												<AudioFileSource Name="Background Music" ID="{DE516DBF-F0DE-4319-BB10-5D23E77B2F76}">
 													<Language>SFX</Language>
 													<AudioFile>Background Music.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="965492815"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="965492815"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -152,9 +152,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="menu_music" ID="{2960B757-5E1A-4DEA-943C-A1968CD988F5}" ShortID="323144054">
+												<AudioFileSource Name="menu_music" ID="{2960B757-5E1A-4DEA-943C-A1968CD988F5}">
 													<Language>SFX</Language>
 													<AudioFile>menu_music.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="323144054"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -238,9 +241,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="lose3" ID="{2C9B851D-8238-433B-B6B6-9A7A0FE4E527}" ShortID="1068208287">
+										<AudioFileSource Name="lose3" ID="{2C9B851D-8238-433B-B6B6-9A7A0FE4E527}">
 											<Language>SFX</Language>
 											<AudioFile>lose3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1068208287"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
@@ -294,9 +300,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="winsnd" ID="{3010E10E-0BC0-48CF-9983-C41DA0A7B9B2}" ShortID="517688445">
+										<AudioFileSource Name="winsnd" ID="{3010E10E-0BC0-48CF-9983-C41DA0A7B9B2}">
 											<Language>SFX</Language>
 											<AudioFile>winsnd.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="517688445"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>

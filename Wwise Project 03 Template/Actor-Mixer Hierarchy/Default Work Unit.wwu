@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{8066C95C-D967-413D-994C-E2533D1194AA}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{8066C95C-D967-413D-994C-E2533D1194AA}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{8066C95C-D967-413D-994C-E2533D1194AA}" PersistMode="Standalone">
 			<ChildrenList>
@@ -20,9 +20,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Hellephant Death" ID="{1AD4206E-7B5D-49C3-8548-2A8D56938881}" ShortID="20644282">
+						<AudioFileSource Name="Hellephant Death" ID="{1AD4206E-7B5D-49C3-8548-2A8D56938881}">
 							<Language>SFX</Language>
 							<AudioFile>Hellephant Death.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="20644282"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -39,9 +42,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Hellephant Hurt" ID="{EB7F4D2D-368B-43BC-80A3-36D0CC2A85C1}" ShortID="899674823">
+						<AudioFileSource Name="Hellephant Hurt" ID="{EB7F4D2D-368B-43BC-80A3-36D0CC2A85C1}">
 							<Language>SFX</Language>
 							<AudioFile>Hellephant Hurt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="899674823"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -58,9 +64,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Player Death" ID="{315711EB-3A1B-4119-AAC0-D36CF7ACC863}" ShortID="397818167">
+						<AudioFileSource Name="Player Death" ID="{315711EB-3A1B-4119-AAC0-D36CF7ACC863}">
 							<Language>SFX</Language>
 							<AudioFile>Player Death.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="397818167"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -84,9 +93,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Player GunShot" ID="{B449348F-C2FE-497E-834A-DB66F0176723}" ShortID="819482582">
+						<AudioFileSource Name="Player GunShot" ID="{B449348F-C2FE-497E-834A-DB66F0176723}">
 							<Language>SFX</Language>
 							<AudioFile>Player GunShot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="819482582"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -103,9 +115,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Player Hurt" ID="{B2E97F49-1CED-4BE9-8ADF-3C23A1A58980}" ShortID="705594913">
+						<AudioFileSource Name="Player Hurt" ID="{B2E97F49-1CED-4BE9-8ADF-3C23A1A58980}">
 							<Language>SFX</Language>
 							<AudioFile>Player Hurt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="705594913"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -122,9 +137,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="ZomBear Death" ID="{9114495F-20C0-4359-BE2E-85A1FBA64E0D}" ShortID="587282357">
+						<AudioFileSource Name="ZomBear Death" ID="{9114495F-20C0-4359-BE2E-85A1FBA64E0D}">
 							<Language>SFX</Language>
 							<AudioFile>ZomBear Death.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="587282357"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -141,9 +159,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="ZomBear Hurt" ID="{569C5803-A83C-4F5E-9ACE-32148D74EBA6}" ShortID="892419336">
+						<AudioFileSource Name="ZomBear Hurt" ID="{569C5803-A83C-4F5E-9ACE-32148D74EBA6}">
 							<Language>SFX</Language>
 							<AudioFile>ZomBear Hurt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="892419336"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -160,9 +181,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="ZomBunny Death" ID="{DD8206B4-E4A9-4A1A-8C4A-4E15DC6CFD42}" ShortID="142444817">
+						<AudioFileSource Name="ZomBunny Death" ID="{DD8206B4-E4A9-4A1A-8C4A-4E15DC6CFD42}">
 							<Language>SFX</Language>
 							<AudioFile>ZomBunny Death.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="142444817"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -179,9 +203,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="ZomBunny Hurt" ID="{46A935DF-2DA7-4351-948C-929D361162AB}" ShortID="15864782">
+						<AudioFileSource Name="ZomBunny Hurt" ID="{46A935DF-2DA7-4351-948C-929D361162AB}">
 							<Language>SFX</Language>
 							<AudioFile>ZomBunny Hurt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="15864782"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
