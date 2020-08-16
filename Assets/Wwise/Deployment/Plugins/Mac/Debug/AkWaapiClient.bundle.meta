@@ -13,16 +13,6 @@ PluginImporter:
   validateReferences: 1
   platformData:
   - first:
-      '': OSXIntel
-    second:
-      enabled: 1
-      settings: {}
-  - first:
-      '': OSXIntel64
-    second:
-      enabled: 1
-      settings: {}
-  - first:
       Any: 
     second:
       enabled: 0

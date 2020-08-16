@@ -40,6 +40,7 @@ namespace AK
                 static const AkUniqueID GAMEPLAY = 89505537U;
                 static const AkUniqueID LOSE = 221232726U;
                 static const AkUniqueID MENU = 2607556080U;
+                static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID WIN = 979765101U;
             } // namespace STATE
         } // namespace GAME_STATE

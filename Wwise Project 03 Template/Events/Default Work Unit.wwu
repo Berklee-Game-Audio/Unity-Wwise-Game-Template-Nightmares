@@ -163,7 +163,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="New Music Switch Container" ID="{F3147B78-FCD2-4B52-8241-AEB7663842C5}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
+									<ObjectRef Name="Game Music Switch Container" ID="{F3147B78-FCD2-4B52-8241-AEB7663842C5}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -267,7 +267,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="New Music Switch Container" ID="{F3147B78-FCD2-4B52-8241-AEB7663842C5}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
+									<ObjectRef Name="Game Music Switch Container" ID="{F3147B78-FCD2-4B52-8241-AEB7663842C5}" WorkUnitID="{26800F5C-7F46-4ABD-83C1-9EEED5E55303}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

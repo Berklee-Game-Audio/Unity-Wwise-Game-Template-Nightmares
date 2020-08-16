@@ -81,9 +81,11 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="gameplay" ID="{91FE63EF-C658-4541-9A38-929536609065}"/>
+						<CurrentStateRef Name="win" ID="{E5B73261-DC70-4CFC-AA66-89D4DABD08D3}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="middle" ID="{2526454C-5C1D-40FE-84B6-F7A132E6C79E}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

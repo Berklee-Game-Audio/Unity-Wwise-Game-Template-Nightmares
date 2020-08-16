@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>/Users/michaelsweet/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/GoogleDrive/_CloudSync/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/</ProjectRoot>
+		<SourceFilesRoot>/Users/michaelsweet/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/GoogleDrive/_CloudSync/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/michaelsweet/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/GoogleDrive/_CloudSync/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\micha\Desktop\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/michaelsweet/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/GoogleDrive/_CloudSync/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,37 +21,63 @@
 			<ShortName>Game_SoundBank</ShortName>
 			<Path>Game_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2582767885" Name="mx_game_lose" ObjectPath="\Events\Default Work Unit\mx_game_lose"/>
-				<Event Id="1801831767" Name="mx_game_music" ObjectPath="\Events\Default Work Unit\mx_game_music"/>
-				<Event Id="1494251832" Name="mx_game_win" ObjectPath="\Events\Default Work Unit\mx_game_win"/>
+				<Event Id="2582767885" Name="mx_game_lose" ObjectPath="\Events\Default Work Unit\mx_game_lose">
+					<ActionSetState>
+						<ActionSetStateEntry Id="221232726" Name="lose" ObjectPath="\States\Default Work Unit\game_state\lose"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1801831767" Name="mx_game_music" ObjectPath="\Events\Default Work Unit\mx_game_music">
+					<ActionSetState>
+						<ActionSetStateEntry Id="89505537" Name="gameplay" ObjectPath="\States\Default Work Unit\game_state\gameplay"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1494251832" Name="mx_game_win" ObjectPath="\Events\Default Work Unit\mx_game_win">
+					<ActionSetState>
+						<ActionSetStateEntry Id="979765101" Name="win" ObjectPath="\States\Default Work Unit\game_state\win"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="3209341821" Name="mx_load" ObjectPath="\Events\Default Work Unit\mx_load">
 					<IncludedMemoryFiles>
-						<File Id="323144054" Language="SFX">
-							<ShortName>menu_music.wav</ShortName>
-							<Path>SFX\menu_music_8758A51D.wem</Path>
+						<File Id="269614345" Language="SFX">
+							<ShortName>20_underground_demo_a.wav</ShortName>
+							<Path>SFX/20_underground_demo_a_775CB38D.wem</Path>
 						</File>
 						<File Id="517688445" Language="SFX">
 							<ShortName>winsnd.wav</ShortName>
-							<Path>SFX\winsnd_8758A51D.wem</Path>
+							<Path>SFX/winsnd_8758A51D.wem</Path>
 						</File>
 						<File Id="965492815" Language="SFX">
 							<ShortName>Background Music.wav</ShortName>
-							<Path>SFX\Background Music_8758A51D.wem</Path>
+							<Path>SFX/Background Music_8758A51D.wem</Path>
 						</File>
 						<File Id="1068208287" Language="SFX">
 							<ShortName>lose3.wav</ShortName>
-							<Path>SFX\lose3_8758A51D.wem</Path>
+							<Path>SFX/lose3_8758A51D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{91FE63EF-C658-4541-9A38-929536609065}">
-							<Media>
-								<File Id="965492815"/>
-							</Media>
+							<Children>
+								<SwitchContainer SwitchValue="{A7D3CAE1-813C-43AB-9C44-6E6ED87211D0}">
+									<Media>
+										<File Id="965492815"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D0FA1DC8-3F35-4B41-B168-75BE85A7DD89}">
+									<Media>
+										<File Id="965492815"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{2526454C-5C1D-40FE-84B6-F7A132E6C79E}">
+									<Media>
+										<File Id="965492815"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{74D0A147-A826-479F-8542-952ABCFFD4DD}">
 							<Media>
-								<File Id="323144054"/>
+								<File Id="269614345"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{EE7A5E3F-E961-47D4-964B-B988B5EE0A39}">
@@ -65,13 +91,20 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\game_state\menu"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="554004836" Name="mx_menu_music" ObjectPath="\Events\Default Work Unit\mx_menu_music"/>
+				<Event Id="554004836" Name="mx_menu_music" ObjectPath="\Events\Default Work Unit\mx_menu_music">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\game_state\menu"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="2261090919" Name="sfx_hellephant_death" ObjectPath="\Events\Default Work Unit\sfx_hellephant_death">
 					<IncludedMemoryFiles>
 						<File Id="20644282" Language="SFX">
 							<ShortName>Hellephant Death.wav</ShortName>
-							<Path>SFX\Hellephant Death_D2174E6F.wem</Path>
+							<Path>SFX/Hellephant Death_D2174E6F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -79,7 +112,7 @@
 					<IncludedMemoryFiles>
 						<File Id="899674823" Language="SFX">
 							<ShortName>Hellephant Hurt.wav</ShortName>
-							<Path>SFX\Hellephant Hurt_D2174E6F.wem</Path>
+							<Path>SFX/Hellephant Hurt_D2174E6F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -87,7 +120,7 @@
 					<IncludedMemoryFiles>
 						<File Id="397818167" Language="SFX">
 							<ShortName>Player Death.wav</ShortName>
-							<Path>SFX\Player Death_D2174E6F.wem</Path>
+							<Path>SFX/Player Death_D2174E6F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -95,7 +128,7 @@
 					<IncludedMemoryFiles>
 						<File Id="705594913" Language="SFX">
 							<ShortName>Player Hurt.wav</ShortName>
-							<Path>SFX\Player Hurt_D2174E6F.wem</Path>
+							<Path>SFX/Player Hurt_D2174E6F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -103,7 +136,7 @@
 					<IncludedMemoryFiles>
 						<File Id="819482582" Language="SFX">
 							<ShortName>Player GunShot.wav</ShortName>
-							<Path>SFX\Player GunShot_D2174E6F.wem</Path>
+							<Path>SFX/Player GunShot_D2174E6F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -111,7 +144,7 @@
 					<IncludedMemoryFiles>
 						<File Id="587282357" Language="SFX">
 							<ShortName>ZomBear Death.wav</ShortName>
-							<Path>SFX\ZomBear Death_D2174E6F.wem</Path>
+							<Path>SFX/ZomBear Death_D2174E6F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -119,7 +152,7 @@
 					<IncludedMemoryFiles>
 						<File Id="892419336" Language="SFX">
 							<ShortName>ZomBear Hurt.wav</ShortName>
-							<Path>SFX\ZomBear Hurt_D2174E6F.wem</Path>
+							<Path>SFX/ZomBear Hurt_D2174E6F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -127,7 +160,7 @@
 					<IncludedMemoryFiles>
 						<File Id="142444817" Language="SFX">
 							<ShortName>ZomBunny Death.wav</ShortName>
-							<Path>SFX\ZomBunny Death_D2174E6F.wem</Path>
+							<Path>SFX/ZomBunny Death_D2174E6F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -135,12 +168,21 @@
 					<IncludedMemoryFiles>
 						<File Id="15864782" Language="SFX">
 							<ShortName>ZomBunny Hurt.wav</ShortName>
-							<Path>SFX\ZomBunny Hurt_D2174E6F.wem</Path>
+							<Path>SFX/ZomBunny Hurt_D2174E6F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2416641186" Name="time_remaining_percentage" ObjectPath="\Game Parameters\Default Work Unit\time_remaining_percentage"/>
+			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="89505537" Name="gameplay" ObjectPath="\States\Default Work Unit\game_state\gameplay">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="221232726" Name="lose" ObjectPath="\States\Default Work Unit\game_state\lose">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="766723505" Name="game_state" ObjectPath="\States\Default Work Unit\game_state">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\game_state\None"/>
@@ -150,7 +192,22 @@
 						<State Id="221232726" Name="lose" ObjectPath="\States\Default Work Unit\game_state\lose"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="979765101" Name="win" ObjectPath="\States\Default Work Unit\game_state\win">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\game_state\menu">
+					<States/>
+				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1369033959" Name="gameplay_time" ObjectPath="\Switches\Default Work Unit\gameplay_time">
+					<Switches>
+						<Switch Id="37738130" Name="beginning" ObjectPath="\Switches\Default Work Unit\gameplay_time\beginning"/>
+						<Switch Id="1026627430" Name="middle" ObjectPath="\Switches\Default Work Unit\gameplay_time\middle"/>
+						<Switch Id="529726532" Name="end" ObjectPath="\Switches\Default Work Unit\gameplay_time\end"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
