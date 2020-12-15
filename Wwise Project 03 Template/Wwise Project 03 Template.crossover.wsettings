@@ -53,6 +53,7 @@
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
+				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\GameSyncWatches" Type="string" Value="Ca8+i900YEm73TNLlKllGNjdGtEr8SNDtfMRRKKe9Qms36Pfn4fmSaW6pvRfsh6y07DNS6R+r0miETc9hgq3wA=="/>
 				<Property Name="MonitoringManager\WatchMgr\Watches" Type="string" Value=""/>
