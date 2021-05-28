@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
 		<ProjectRoot>/Users/michaelsweet/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/GoogleDrive/_CloudSync/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/</ProjectRoot>
 		<SourceFilesRoot>/Users/michaelsweet/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/GoogleDrive/_CloudSync/Work/Berklee/GIT/Unity-Wwise-Game-Template-Nightmares/Wwise Project 03 Template/.cache/Windows/</SourceFilesRoot>
@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3104311545">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3012231368">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3626155605" Language="SFX" Hash="3603733338">
+		<SoundBank Id="3626155605" Language="SFX" Hash="3331517539">
 			<ObjectPath>\SoundBanks\Default Work Unit\Game_SoundBank</ObjectPath>
 			<ShortName>Game_SoundBank</ShortName>
 			<Path>Game_SoundBank.bnk</Path>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{37D2D0A7-5AAF-4F61-AF16-7513DFD126CA}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{37D2D0A7-5AAF-4F61-AF16-7513DFD126CA}" SchemaVersion="103">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{37D2D0A7-5AAF-4F61-AF16-7513DFD126CA}" PersistMode="Standalone">
 			<ChildrenList>
@@ -21,6 +21,7 @@
 							<ObjectRef Name="System" ID="{E21B29D2-1F8F-486D-9C3F-BB17C606E810}" WorkUnitID="{2397D4A4-D5CC-42DE-A623-95DE544931B3}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists/>
 				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}">
 					<PropertyList>
@@ -35,6 +36,7 @@
 							<ObjectRef Name="System" ID="{E21B29D2-1F8F-486D-9C3F-BB17C606E810}" WorkUnitID="{2397D4A4-D5CC-42DE-A623-95DE544931B3}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

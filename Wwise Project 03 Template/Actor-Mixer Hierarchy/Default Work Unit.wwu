@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{8066C95C-D967-413D-994C-E2533D1194AA}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{8066C95C-D967-413D-994C-E2533D1194AA}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{8066C95C-D967-413D-994C-E2533D1194AA}" PersistMode="Standalone">
 			<ChildrenList>
@@ -28,6 +28,7 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Hellephant Death" ID="{1AD4206E-7B5D-49C3-8548-2A8D56938881}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -50,6 +51,7 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Hellephant Hurt" ID="{EB7F4D2D-368B-43BC-80A3-36D0CC2A85C1}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -72,6 +74,7 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Player Death" ID="{315711EB-3A1B-4119-AAC0-D36CF7ACC863}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -101,6 +104,7 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Player GunShot" ID="{B449348F-C2FE-497E-834A-DB66F0176723}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -123,6 +127,7 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Player Hurt" ID="{B2E97F49-1CED-4BE9-8ADF-3C23A1A58980}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -145,6 +150,7 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="ZomBear Death" ID="{9114495F-20C0-4359-BE2E-85A1FBA64E0D}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -167,6 +173,7 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="ZomBear Hurt" ID="{569C5803-A83C-4F5E-9ACE-32148D74EBA6}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -189,6 +196,7 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="ZomBunny Death" ID="{DD8206B4-E4A9-4A1A-8C4A-4E15DC6CFD42}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -211,6 +219,7 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="ZomBunny Hurt" ID="{46A935DF-2DA7-4351-948C-929D361162AB}" Platform="Linked"/>
 					</ActiveSourceList>
