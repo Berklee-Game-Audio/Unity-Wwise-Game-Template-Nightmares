@@ -65,7 +65,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="player_health" ID="{D11ADDD8-F12B-4323-B5F3-1144A29EF509}"/>
-							<Value>100</Value>
+							<Value>12.0621246055177</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="number_of_enemies_within_range" ID="{8B3EAF09-34DD-4960-BBDD-334B94A96518}"/>
@@ -73,7 +73,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="time_remaining_percentage" ID="{4BCDB0D3-7EA4-49AF-A211-373D860AB7C0}"/>
-							<Value>100</Value>
+							<Value>16.163236020831</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="score" ID="{DFA3DFAC-879F-49E6-A5BA-A6F45FB21EB2}"/>
@@ -81,7 +81,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="win" ID="{E5B73261-DC70-4CFC-AA66-89D4DABD08D3}"/>
+						<CurrentStateRef Name="menu" ID="{74D0A147-A826-479F-8542-952ABCFFD4DD}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="middle" ID="{2526454C-5C1D-40FE-84B6-F7A132E6C79E}"/>

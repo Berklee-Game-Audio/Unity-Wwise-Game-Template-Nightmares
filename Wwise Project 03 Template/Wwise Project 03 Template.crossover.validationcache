@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
-	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Wwise Project 03 Template.wproj" DateLow="1622216132" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Wwise Project 03 Template.crossover.wsettings" DateLow="1622216132" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Wwise Project 03 Template.wproj" DateLow="1622216328" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Wwise Project 03 Template.crossover.wsettings" DateLow="1627334425" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Virtual Acoustics\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Triggers\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Switches\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\States\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1622749019" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\SoundBanks\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Queries\Factory Queries.wwu" DateLow="1622216132" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Queries\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
@@ -14,8 +14,9 @@
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Presets\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Modulators\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Mixing Sessions\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Metadata\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1622749019" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Game Parameters\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Events\Default Work Unit.wwu" DateLow="1622216132" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\GoogleDrive\_CloudSync\Work\Berklee\GIT\Unity-Wwise-Game-Template-Nightmares\Wwise Project 03 Template\Effects\Factory Effects.wwu" DateLow="1622216132" DateHigh="0"/>

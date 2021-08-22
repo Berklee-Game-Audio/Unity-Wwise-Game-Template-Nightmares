@@ -32,7 +32,7 @@
 							<ChildrenList>
 								<MusicSegment Name="menu_music_segment" ID="{C94E9080-812A-49D2-9284-4E7501CC2305}" ShortID="729801058">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="38976.8027210884"/>
+										<Property Name="EndPosition" Type="Real64" Value="38819.0360419836"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -50,7 +50,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="20_underground_demo_a" ID="{4C1D82E4-E0B3-4BB0-9C4C-631510E3C617}">
+												<AudioFileSource Name="20_underground_demo_a" ID="{7EDDC341-631F-4066-85BF-75A55E301460}">
 													<PropertyList>
 														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -60,7 +60,7 @@
 													<Language>SFX</Language>
 													<AudioFile>20_underground_demo_a.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="269614345"/>
+														<MediaID ID="279718157"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -81,13 +81,13 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="20_underground_demo_a" ID="{86989A43-0293-4E49-BF45-82BED2F58F6E}">
+																				<MusicClip Name="20_underground_demo_a" ID="{3E37E5CC-1D1F-4DA7-898C-37A1B1ABAF56}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="36571.4285714286"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="20_underground_demo_a" ID="{4C1D82E4-E0B3-4BB0-9C4C-631510E3C617}"/>
+																					<AudioSourceRef Name="20_underground_demo_a" ID="{7EDDC341-631F-4066-85BF-75A55E301460}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -112,7 +112,7 @@
 													<MusicCue Name="Exit Cue" ID="{882EFBBD-DD15-487E-BF21-BC8B54DAC26A}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="38976.8027210884"/>
+															<Property Name="TimeMs" Type="Real64" Value="36495.2149411101"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -315,6 +315,44 @@
 						</MusicSegment>
 						<MusicSwitchContainer Name="Gamplay Music Switch Container" ID="{526DBCF9-3025-4F3C-9E80-612AE83DE0E2}" ShortID="902625111">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{95F5BCEE-061C-49F5-95DE-9D901A3FD654}" ShortID="966394425">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="player_health" ID="{D11ADDD8-F12B-4323-B5F3-1144A29EF509}" WorkUnitID="{7C24FF2A-4389-464F-9FD4-A3E2AD9DF31D}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CEF19D69-337D-48C9-97AE-B2998E9A3EEE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>53</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>13.39712</XPos>
+														<YPos>54</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20.4545454545455</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>1</Value>

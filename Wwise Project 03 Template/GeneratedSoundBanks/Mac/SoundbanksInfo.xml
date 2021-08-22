@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3626155605" Language="SFX" Hash="3331517539">
+		<SoundBank Id="3626155605" Language="SFX" Hash="1124489664">
 			<ObjectPath>\SoundBanks\Default Work Unit\Game_SoundBank</ObjectPath>
 			<ShortName>Game_SoundBank</ShortName>
 			<Path>Game_SoundBank.bnk</Path>
@@ -38,7 +38,7 @@
 				</Event>
 				<Event Id="3209341821" Name="mx_load" ObjectPath="\Events\Default Work Unit\mx_load">
 					<IncludedMemoryFiles>
-						<File Id="269614345" Language="SFX">
+						<File Id="279718157" Language="SFX">
 							<ShortName>20_underground_demo_a.wav</ShortName>
 							<Path>SFX/20_underground_demo_a_775CB38D.wem</Path>
 						</File>
@@ -77,7 +77,7 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{74D0A147-A826-479F-8542-952ABCFFD4DD}">
 							<Media>
-								<File Id="269614345"/>
+								<File Id="279718157"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{EE7A5E3F-E961-47D4-964B-B988B5EE0A39}">
@@ -174,37 +174,38 @@
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
+				<GameParameter Id="215992295" Name="player_health" ObjectPath="\Game Parameters\Default Work Unit\player_health"/>
 				<GameParameter Id="2416641186" Name="time_remaining_percentage" ObjectPath="\Game Parameters\Default Work Unit\time_remaining_percentage"/>
 			</GameParameters>
 			<StateGroups>
-				<StateGroup Id="89505537" Name="gameplay" ObjectPath="\States\Default Work Unit\game_state\gameplay">
+				<StateGroup Id="89505537" Name="gameplay" ObjectPath="\States\Default Work Unit\game_state\gameplay" GUID="{91FE63EF-C658-4541-9A38-929536609065}">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="221232726" Name="lose" ObjectPath="\States\Default Work Unit\game_state\lose">
+				<StateGroup Id="221232726" Name="lose" ObjectPath="\States\Default Work Unit\game_state\lose" GUID="{EE7A5E3F-E961-47D4-964B-B988B5EE0A39}">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="766723505" Name="game_state" ObjectPath="\States\Default Work Unit\game_state">
+				<StateGroup Id="766723505" Name="game_state" ObjectPath="\States\Default Work Unit\game_state" GUID="{4135066D-3178-4A98-97B0-27CE43EE61D9}">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\game_state\None"/>
-						<State Id="89505537" Name="gameplay" ObjectPath="\States\Default Work Unit\game_state\gameplay"/>
-						<State Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\game_state\menu"/>
-						<State Id="979765101" Name="win" ObjectPath="\States\Default Work Unit\game_state\win"/>
-						<State Id="221232726" Name="lose" ObjectPath="\States\Default Work Unit\game_state\lose"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\game_state\None" GUID="{E1FBA032-73E6-4959-ABF4-8622DA02EADA}"/>
+						<State Id="89505537" Name="gameplay" ObjectPath="\States\Default Work Unit\game_state\gameplay" GUID="{91FE63EF-C658-4541-9A38-929536609065}"/>
+						<State Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\game_state\menu" GUID="{74D0A147-A826-479F-8542-952ABCFFD4DD}"/>
+						<State Id="979765101" Name="win" ObjectPath="\States\Default Work Unit\game_state\win" GUID="{E5B73261-DC70-4CFC-AA66-89D4DABD08D3}"/>
+						<State Id="221232726" Name="lose" ObjectPath="\States\Default Work Unit\game_state\lose" GUID="{EE7A5E3F-E961-47D4-964B-B988B5EE0A39}"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="979765101" Name="win" ObjectPath="\States\Default Work Unit\game_state\win">
+				<StateGroup Id="979765101" Name="win" ObjectPath="\States\Default Work Unit\game_state\win" GUID="{E5B73261-DC70-4CFC-AA66-89D4DABD08D3}">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\game_state\menu">
+				<StateGroup Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\game_state\menu" GUID="{74D0A147-A826-479F-8542-952ABCFFD4DD}">
 					<States/>
 				</StateGroup>
 			</StateGroups>
 			<SwitchGroups>
-				<SwitchGroup Id="1369033959" Name="gameplay_time" ObjectPath="\Switches\Default Work Unit\gameplay_time">
+				<SwitchGroup Id="1369033959" Name="gameplay_time" ObjectPath="\Switches\Default Work Unit\gameplay_time" GUID="{369F6656-E354-4053-B1D7-0706AA4910A9}">
 					<Switches>
-						<Switch Id="37738130" Name="beginning" ObjectPath="\Switches\Default Work Unit\gameplay_time\beginning"/>
-						<Switch Id="1026627430" Name="middle" ObjectPath="\Switches\Default Work Unit\gameplay_time\middle"/>
-						<Switch Id="529726532" Name="end" ObjectPath="\Switches\Default Work Unit\gameplay_time\end"/>
+						<Switch Id="37738130" Name="beginning" ObjectPath="\Switches\Default Work Unit\gameplay_time\beginning" GUID="{A7D3CAE1-813C-43AB-9C44-6E6ED87211D0}"/>
+						<Switch Id="1026627430" Name="middle" ObjectPath="\Switches\Default Work Unit\gameplay_time\middle" GUID="{2526454C-5C1D-40FE-84B6-F7A132E6C79E}"/>
+						<Switch Id="529726532" Name="end" ObjectPath="\Switches\Default Work Unit\gameplay_time\end" GUID="{D0FA1DC8-3F35-4B41-B168-75BE85A7DD89}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
