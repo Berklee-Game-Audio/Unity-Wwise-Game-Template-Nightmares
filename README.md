@@ -1,10 +1,10 @@
 # Unity-Wwise-Game-Template-Nightmares
 
 Optimized for Unity Version: 
-2020.3.13f1
+2020.3.33f1
 
 Optimized for Wwise Version: 
-2021.1.3.7665
+2021.1.7.7796
 
 READ BELOW FOR MAC OS CATALINA and BIG SUR USERS ONLY:
 Make sure you've applied the updates for the latest version 10.15.6 with the supplementary

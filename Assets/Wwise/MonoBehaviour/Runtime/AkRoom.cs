@@ -66,6 +66,8 @@ public class AkRoom : AkTriggerHandler
 	private float previousRoomGameObj_AuxSendLevelToSelf;
 	private bool previousRoomGameObj_KeepRegistered;
 	private ulong previousGeometryID;
+
+	private bool bSentToWwise = false;
 #endif
 
 	#endregion
@@ -110,7 +112,8 @@ public class AkRoom : AkTriggerHandler
 		ulong geometryID = GetGeometryID();
 
 #if UNITY_EDITOR
-		if (previousUp == transform.up &&
+		if (bSentToWwise &&
+			previousUp == transform.up &&
 			previousFront == transform.forward &&
 			previousReverbAuxBus == reverbAuxBus.Id &&
 			previousReverbLevel == reverbLevel &&
@@ -137,6 +140,7 @@ public class AkRoom : AkTriggerHandler
 		AkSoundEngine.SetRoom(GetID(), roomParams, geometryID, name);
 
 #if UNITY_EDITOR
+		bSentToWwise = true;
 		previousUp = transform.up;
 		previousFront = transform.forward;
 		previousReverbAuxBus = reverbAuxBus.Id;
@@ -367,6 +371,9 @@ public class AkRoom : AkTriggerHandler
 
 		RoomCount--;
 		AkSoundEngine.RemoveRoom(GetID());
+#if UNITY_EDITOR
+		bSentToWwise = false;
+#endif
 	}
 
 	private void OnTriggerEnter(UnityEngine.Collider in_other)
