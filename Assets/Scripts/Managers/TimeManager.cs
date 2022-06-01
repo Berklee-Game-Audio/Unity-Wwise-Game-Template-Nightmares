@@ -6,11 +6,12 @@ namespace CompleteProject
 {
 	public class TimeManager : MonoBehaviour {
 
-		public float timeRemaining = 120.0f;
+		public static float timeRemaining = 120.0f;
 		public PlayerHealth health;
 		//public bool gameIsRunning = false;
 
 		float initialSettingOfTimeRemaining;
+		
 
 		Text text;
 

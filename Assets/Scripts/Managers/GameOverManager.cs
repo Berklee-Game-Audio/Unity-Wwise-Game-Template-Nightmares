@@ -28,7 +28,7 @@ namespace CompleteProject
 
 			if(playerHealth.currentHealth > 0){
 
-				if (timer.timeRemaining < 0.5) {
+				if (TimeManager.timeRemaining < 0.5) {
 					anim.SetTrigger ("GameOverWin");
 
 				}

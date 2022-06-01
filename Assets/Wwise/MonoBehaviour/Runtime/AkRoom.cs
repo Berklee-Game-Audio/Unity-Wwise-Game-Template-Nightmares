@@ -6,7 +6,7 @@
 /// @details The AkRoom component uses its required Collider component to determine when AkRoomAwareObjects enter and exit the room using the OnTriggerEnter and OnTriggerExit callbacks.
 public class AkRoom : AkTriggerHandler
 {
-	public static ulong INVALID_ROOM_ID = unchecked((ulong)-1.0f);
+	public static ulong INVALID_ROOM_ID = unchecked((ulong)(-1));
 
 	public static ulong GetAkRoomID(AkRoom room)
 	{
@@ -367,7 +367,8 @@ public class AkRoom : AkTriggerHandler
 		previousColliderType = null;
 
 		// stop sounds applied to the room game object
-		AkSoundEngine.StopAll(GetID());
+		if (roomToneEvent.IsValid())
+			AkSoundEngine.StopAll(GetID());
 
 		RoomCount--;
 		AkSoundEngine.RemoveRoom(GetID());
@@ -388,7 +389,7 @@ public class AkRoom : AkTriggerHandler
 
 	public void PostRoomTone()
 	{
-		if (roomToneEvent.IsValid())
+		if (roomToneEvent.IsValid() && isActiveAndEnabled)
 			AkSoundEngine.PostEventOnRoom(roomToneEvent.Id, GetID());
 	}
 
@@ -407,7 +408,7 @@ public class AkRoom : AkTriggerHandler
 		public ulong GetHighestPriorityActiveAndEnabledRoomID()
 		{
 			var room = GetHighestPriorityActiveAndEnabledRoom();
-			return room == null ? INVALID_ROOM_ID : room.GetID();
+			return GetAkRoomID(room);
 		}
 		public AkRoom GetHighestPriorityActiveAndEnabledRoom()
 		{

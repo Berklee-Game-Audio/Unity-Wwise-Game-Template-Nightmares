@@ -32,7 +32,7 @@ namespace CompleteProject
 
 		private bool restartQueued = false;
 		private float waitingTime = 0.0f;
-		private float timeUntilRestart = 5.0f;
+        private float timeUntilRestart = 5.0f;
 
         void Awake ()
         {

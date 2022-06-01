@@ -8,8 +8,10 @@ namespace CompleteProject
         public int currentHealth;                   // The current health the enemy has.
         public float sinkSpeed = 2.5f;              // The speed at which the enemy sinks through the floor when dead.
         public int scoreValue = 10;                 // The amount added to the player's score when the enemy dies.
+        public float timeValue = 0.0f;                   // My addition. The amound added to time remaining when killing an enemy.
         public AudioClip deathClip;                 // The sound to play when the enemy dies.
 
+        //GameOverManager gom;
 
         Animator anim;                              // Reference to the animator.
         AudioSource enemyAudio;                     // Reference to the audio source.
@@ -26,6 +28,8 @@ namespace CompleteProject
             enemyAudio = GetComponent <AudioSource> ();
             hitParticles = GetComponentInChildren <ParticleSystem> ();
             capsuleCollider = GetComponent <CapsuleCollider> ();
+
+            //gom = GetComponent<GameOverManager>();
 
             // Setting the current health when the enemy first spawns.
             currentHealth = startingHealth;
@@ -125,8 +129,12 @@ namespace CompleteProject
             // The enemy should no sink.
             isSinking = true;
 
-            // Increase the score by the enemy's score value.
+            // Increase the score by the enemy's score value. ***My addition, add time for each kill!
             ScoreManager.score += scoreValue;
+            //GameOverManager gom = GetComponent(typeof(GameOverManager)) as GameOverManager;
+            Debug.Log("before " + TimeManager.timeRemaining);
+            TimeManager.timeRemaining += 0.7f; //I added this
+            Debug.Log("after " + TimeManager.timeRemaining);
 
             // After 2 seconds destory the enemy.
             Destroy (gameObject, 2f);

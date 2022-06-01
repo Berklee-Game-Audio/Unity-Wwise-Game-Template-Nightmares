@@ -1051,7 +1051,7 @@ public partial class AkSoundEngine {
 
   public static uint GetCaptureSamples(ulong in_idOutputDeviceID, float[] out_pSamples, uint in_uBufferSize) { return AkSoundEnginePINVOKE.CSharp_GetCaptureSamples(in_idOutputDeviceID, out_pSamples, in_uBufferSize); }
 
-  public static AKRESULT SetRoomPortal(ulong in_PortalID, AkTransform Transform, AkExtent Extent, bool bEnabled, ulong FrontRoom, ulong BackRoom) { return (AKRESULT)AkSoundEnginePINVOKE.CSharp_SetRoomPortal(in_PortalID, AkTransform.getCPtr(Transform), AkExtent.getCPtr(Extent), bEnabled, FrontRoom, BackRoom); }
+  public static AKRESULT SetRoomPortal(ulong in_PortalID, ulong FrontRoom, ulong BackRoom, AkTransform Transform, AkExtent Extent, bool bEnabled, string in_pName) { return (AKRESULT)AkSoundEnginePINVOKE.CSharp_SetRoomPortal(in_PortalID, FrontRoom, BackRoom, AkTransform.getCPtr(Transform), AkExtent.getCPtr(Extent), bEnabled, in_pName); }
 
   public static AKRESULT SetRoom(ulong in_RoomID, AkRoomParams in_roomParams, ulong GeometryID, string in_pName) { return (AKRESULT)AkSoundEnginePINVOKE.CSharp_SetRoom(in_RoomID, AkRoomParams.getCPtr(in_roomParams), GeometryID, in_pName); }
 

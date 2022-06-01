@@ -2349,7 +2349,7 @@ class AkSoundEnginePINVOKE {
   [global::System.Runtime.InteropServices.DllImport("AkSoundEngine", EntryPoint="CSharp_GetCaptureSamples")]
   public static extern uint CSharp_GetCaptureSamples(ulong jarg1, [global::System.Runtime.InteropServices.In, global::System.Runtime.InteropServices.Out, global::System.Runtime.InteropServices.MarshalAs(global::System.Runtime.InteropServices.UnmanagedType.LPArray)]float[] jarg2, uint jarg3);
   [global::System.Runtime.InteropServices.DllImport("AkSoundEngine", EntryPoint="CSharp_SetRoomPortal")]
-  public static extern int CSharp_SetRoomPortal(ulong jarg1, global::System.IntPtr jarg2, global::System.IntPtr jarg3, bool jarg4, ulong jarg5, ulong jarg6);
+  public static extern int CSharp_SetRoomPortal(ulong jarg1, ulong jarg2, ulong jarg3, global::System.IntPtr jarg4, global::System.IntPtr jarg5, bool jarg6, [global::System.Runtime.InteropServices.MarshalAs(global::System.Runtime.InteropServices.UnmanagedType.LPStr)]string jarg7);
   [global::System.Runtime.InteropServices.DllImport("AkSoundEngine", EntryPoint="CSharp_SetRoom")]
   public static extern int CSharp_SetRoom(ulong jarg1, global::System.IntPtr jarg2, ulong jarg3, [global::System.Runtime.InteropServices.MarshalAs(global::System.Runtime.InteropServices.UnmanagedType.LPStr)]string jarg4);
   [global::System.Runtime.InteropServices.DllImport("AkSoundEngine", EntryPoint="CSharp_RegisterSpatialAudioListener")]

@@ -1049,7 +1049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e4f15fc4457f411ab8f6d9f46d7b9c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 30
+  timeRemaining: 120
   health: {fileID: 2023876516}
 --- !u!114 &247996584
 MonoBehaviour:

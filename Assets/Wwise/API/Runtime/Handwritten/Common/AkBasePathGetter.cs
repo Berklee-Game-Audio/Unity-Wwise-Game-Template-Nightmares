@@ -234,6 +234,7 @@ public partial class AkBasePathGetter
 		{
 			tempSoundBankBasePath = GetPlatformBasePath();
 
+#if !AK_WWISE_ADDRESSABLES //Don't log this if we're using addressables
 #if !UNITY_EDITOR && UNITY_ANDROID
 			// Can't use File.Exists on Android, assume banks are there
 			var InitBnkFound = true;
@@ -241,7 +242,6 @@ public partial class AkBasePathGetter
 			var InitBnkFound = System.IO.File.Exists(System.IO.Path.Combine(tempSoundBankBasePath, "Init.bnk"));
 #endif
 			
-#if !AK_WWISE_ADDRESSABLES && UNITY_ADDRESSBLES //Don't log this if we're using addressables
 			if (string.IsNullOrEmpty(tempSoundBankBasePath) || !InitBnkFound)
 			{
 				if (LogWarnings)
